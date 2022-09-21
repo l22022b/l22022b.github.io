@@ -1,0 +1,13 @@
+*** relatorios/202210478/T1/saida.txt	2022-09-21 07:50:58.788769916 -0300
+--- ./entradas/t1/lados.out	2022-09-21 07:49:12.602017841 -0300
+***************
+*** 1,4 ****
+  escaleno
+  equilatero
+  invalido
+! isoceles
+--- 1,4 ----
+  escaleno
+  equilatero
+  invalido
+! isosceles

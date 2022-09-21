@@ -1,0 +1,7 @@
+T1.cpp: In function ‘int main()’:
+T1.cpp:14:27: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   14 |         if(n1<=0 || n1>50 && n2<=0 || n2>50 && n3<=0 || n3>50){
+      |                     ~~~~~~^~~~~~~~
+T1.cpp:14:45: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   14 |         if(n1<=0 || n1>50 && n2<=0 || n2>50 && n3<=0 || n3>50){
+      |                                       ~~~~~~^~~~~~~~

@@ -1,0 +1,12 @@
+*** relatorios/202120278/T1/saida.txt	2022-09-21 07:50:16.445267543 -0300
+--- ./entradas/t1/lados.out	2022-09-21 07:49:12.602017841 -0300
+***************
+*** 1,3 ****
+! digite os lados do triângulo: 
+! equilátero
+! inválidoisósceles
+--- 1,4 ----
+! escaleno
+! equilatero
+! invalido
+! isosceles

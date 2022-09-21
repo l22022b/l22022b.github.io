@@ -1,0 +1,3 @@
+digite os lados do triângulo: 
+equilátero
+inválidoisósceles

@@ -1,0 +1,9 @@
+*** relatorios/202210309/T1/saida.txt	2022-09-21 07:50:41.344974918 -0300
+--- ./entradas/t1/lados.out	2022-09-21 07:49:12.602017841 -0300
+***************
+*** 2,5 ****
+  equilatero
+  invalido
+  isosceles
+- Fim do Programa
+--- 2,4 ----

@@ -1,0 +1,4 @@
+Digite o tamanho (1 <= n <= 50) do lado(1) do triangulo: Digite o tamanho (1 <= n <= 50) do lado(2) do triangulo: Digite o tamanho (1 <= n <= 50) do lado(3) do triangulo: 
+Os tamanhos sao: 06 08 10
+O tipo de triangulo eh: escaleno
+

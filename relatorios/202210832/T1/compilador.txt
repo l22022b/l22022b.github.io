@@ -1,0 +1,4 @@
+t1.cpp: In function ‘int main()’:
+t1.cpp:40:13: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<float>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   40 |     while(i < lados.size()){
+      |           ~~^~~~~~~~~~~~~~

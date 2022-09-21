@@ -1,0 +1,9 @@
+T1.cpp:6:9: style: The scope of the variable 's1' can be reduced. [variableScope]
+    int s1,s2,s3;
+        ^
+T1.cpp:6:12: style: The scope of the variable 's2' can be reduced. [variableScope]
+    int s1,s2,s3;
+           ^
+T1.cpp:6:15: style: The scope of the variable 's3' can be reduced. [variableScope]
+    int s1,s2,s3;
+              ^

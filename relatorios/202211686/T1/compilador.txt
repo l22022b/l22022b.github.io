@@ -1,0 +1,4 @@
+t1-AntonioDallAgnol.cpp: In function ‘int main()’:
+t1-AntonioDallAgnol.cpp:33:20: warning: suggest parentheses around comparison in operand of ‘!=’ [-Wparentheses]
+   33 |         else if(l1 != l2 != l3)
+      |                 ~~~^~~~~
