@@ -1,3 +1,4 @@
 escaleno
 equilatero
 invalido
+isosceles

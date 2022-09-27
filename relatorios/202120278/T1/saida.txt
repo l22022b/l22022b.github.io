@@ -1,3 +1,4 @@
-digite os lados do triângulo: 
-equilátero
-inválidoisósceles
+escaleno
+equilatero
+inválido
+isosceles
