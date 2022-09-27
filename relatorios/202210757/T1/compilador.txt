@@ -1,0 +1,7 @@
+t1.cpp: In function ‘int main()’:
+t1.cpp:22:5: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+   22 |     for(auto i = 0; i < size; i++)
+      |     ^~~
+t1.cpp:33:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   33 |  for(auto i = 0; i < size; i++)
+      |  ^~~

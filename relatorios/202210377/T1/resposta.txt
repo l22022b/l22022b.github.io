@@ -1,0 +1,9 @@
+*** relatorios/202210377/T1/saida.txt	2022-09-27 13:34:21.016087062 -0300
+--- ./entradas/t1/lados.out	2022-09-21 07:49:12.602017841 -0300
+***************
+*** 2,5 ****
+  equilatero
+  invalido
+  isosceles
+- isosceles
+--- 2,4 ----

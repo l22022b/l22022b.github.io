@@ -1,0 +1,3 @@
+escaleno
+equilatero
+invalidoisosceles
