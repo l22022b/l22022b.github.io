@@ -1,0 +1,8 @@
+==1268481== 128 (64 direct, 64 indirect) bytes in 1 blocks are definitely lost in loss record 3 of 4
+==1268481==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1268481==    by 0x1094AE: main (t2.cpp:47)
+==1268481== 
+==1268481== 128 (64 direct, 64 indirect) bytes in 1 blocks are definitely lost in loss record 4 of 4
+==1268481==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1268481==    by 0x10956C: main (t2.cpp:61)
+==1268481== 

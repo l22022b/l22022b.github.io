@@ -1,0 +1,3 @@
+t2-FranciscoJr.cpp:43:15: style: Variable 'n_bombas' is assigned a value that is never used. [unreadVariable]
+    k=n_bombas=num_vezes=0;
+              ^

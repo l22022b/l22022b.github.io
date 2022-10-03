@@ -1,0 +1,21 @@
+t2.cpp:51:14: style: Local variable 'i' shadows outer variable [shadowVariable]
+    for(auto i = 0; i < t; i++)
+             ^
+t2.cpp:8:9: note: Shadowed declaration
+    int i, j;
+        ^
+t2.cpp:51:14: note: Shadow variable
+    for(auto i = 0; i < t; i++)
+             ^
+t2.cpp:84:14: style: Local variable 'i' shadows outer variable [shadowVariable]
+    for(auto i = 0; i < tam; i++)
+             ^
+t2.cpp:75:9: note: Shadowed declaration
+    int i { 0 };
+        ^
+t2.cpp:84:14: note: Shadow variable
+    for(auto i = 0; i < tam; i++)
+             ^
+t2.cpp:76:17: style: Unused variable: temp [unusedVariable]
+    std::string temp;
+                ^

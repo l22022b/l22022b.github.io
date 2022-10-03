@@ -1,0 +1,3 @@
+t2_FernandoPozzer.cpp:9:12: style: The scope of the variable 'mat' can be reduced. [variableScope]
+    char **mat {nullptr};
+           ^

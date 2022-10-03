@@ -1,0 +1,28 @@
+==1268125== Invalid read of size 1
+==1268125==    at 0x1094D5: verificar(char**, int) (trab2.cpp:39)
+==1268125==    by 0x10988A: main (trab2.cpp:99)
+==1268125==  Address 0x4dc0d8f is 1 bytes before a block of size 8 alloc'd
+==1268125==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1268125==    by 0x10984E: main (trab2.cpp:94)
+==1268125== 
+==1268125== Invalid read of size 1
+==1268125==    at 0x1095D0: verificar(char**, int) (trab2.cpp:50)
+==1268125==    by 0x10988A: main (trab2.cpp:99)
+==1268125==  Address 0x4dc0d3f is 1 bytes before a block of size 8 alloc'd
+==1268125==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1268125==    by 0x10984E: main (trab2.cpp:94)
+==1268125== 
+==1268125== Invalid read of size 1
+==1268125==    at 0x10947F: verificar(char**, int) (trab2.cpp:36)
+==1268125==    by 0x10988A: main (trab2.cpp:99)
+==1268125==  Address 0x4dc0de8 is 0 bytes after a block of size 8 alloc'd
+==1268125==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1268125==    by 0x10984E: main (trab2.cpp:94)
+==1268125== 
+==1268125== Invalid read of size 1
+==1268125==    at 0x10957E: verificar(char**, int) (trab2.cpp:47)
+==1268125==    by 0x10988A: main (trab2.cpp:99)
+==1268125==  Address 0x4dc0d48 is 0 bytes after a block of size 8 alloc'd
+==1268125==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1268125==    by 0x10984E: main (trab2.cpp:94)
+==1268125== 

@@ -1,0 +1,6 @@
+t2ehveroneze.cpp:38:23: style: Checking if unsigned expression 'i-1+p' is less than zero. [unsignedLessThanZero]
+        if (i - 1 + p < 0 ||i - 1 + p >= n) continue;
+                      ^
+t2ehveroneze.cpp:40:27: style: Checking if unsigned expression 'j-1+q' is less than zero. [unsignedLessThanZero]
+            if (j - 1 + q < 0 || j - 1 + q >= n) continue;
+                          ^
