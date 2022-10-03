@@ -1,3 +1,12 @@
+t2-FranciscoJr.cpp:75:47: style: Condition 'campo[i][j]!='\0'' is always true [knownConditionTrueFalse]
+            if(campo[i][j]=='.' && campo[i][j]!='\0')
+                                              ^
+t2-FranciscoJr.cpp:75:27: note: Assuming that condition 'campo[i][j]=='.'' is not redundant
+            if(campo[i][j]=='.' && campo[i][j]!='\0')
+                          ^
+t2-FranciscoJr.cpp:75:47: note: Condition 'campo[i][j]!='\0'' is always true
+            if(campo[i][j]=='.' && campo[i][j]!='\0')
+                                              ^
 t2-FranciscoJr.cpp:43:15: style: Variable 'n_bombas' is assigned a value that is never used. [unreadVariable]
     k=n_bombas=num_vezes=0;
               ^

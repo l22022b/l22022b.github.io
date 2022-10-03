@@ -1,7 +1,0 @@
-==1269166== Mismatched free() / delete / delete []
-==1269166==    at 0x483CFBF: operator delete(void*) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1269166==    by 0x1094CF: main (t2ehveroneze.cpp:29)
-==1269166==  Address 0x4dc0d40 is 0 bytes inside a block of size 8 alloc'd
-==1269166==    at 0x483C583: operator new[](unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
-==1269166==    by 0x109373: main (t2ehveroneze.cpp:12)
-==1269166== 

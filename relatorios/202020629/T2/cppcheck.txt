@@ -1,0 +1,12 @@
+t2.cpp:28:25: style: Array index 'i' is used before limits check. [arrayIndexThenCheck]
+                if(campo[i][j+1] == '*' && i < tamanho)
+                        ^
+t2.cpp:38:52: style: Condition 'i>0' is always true [knownConditionTrueFalse]
+                    if(campo[i-1][j-1] == '*' && i > 0)
+                                                   ^
+t2.cpp:33:23: note: Assuming that condition 'i>0' is not redundant
+                if (i > 0) {
+                      ^
+t2.cpp:38:52: note: Condition 'i>0' is always true
+                    if(campo[i-1][j-1] == '*' && i > 0)
+                                                   ^

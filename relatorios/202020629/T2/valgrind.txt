@@ -1,0 +1,36 @@
+==840450== Invalid read of size 1
+==840450==    at 0x1093B8: main (t2.cpp:30)
+==840450==  Address 0x4d6ad3f is 1 bytes before a block of size 8 alloc'd
+==840450==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==840450==    by 0x1092AD: main (t2.cpp:16)
+==840450== 
+==840450== Invalid read of size 1
+==840450==    at 0x109513: main (t2.cpp:46)
+==840450==  Address 0x4d6ad8f is 1 bytes before a block of size 8 alloc'd
+==840450==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==840450==    by 0x1092AD: main (t2.cpp:16)
+==840450== 
+==840450== Invalid read of size 1
+==840450==    at 0x109456: main (t2.cpp:38)
+==840450==  Address 0x4d6ad3f is 1 bytes before a block of size 8 alloc'd
+==840450==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==840450==    by 0x1092AD: main (t2.cpp:16)
+==840450== 
+==840450== Invalid read of size 1
+==840450==    at 0x109382: main (t2.cpp:28)
+==840450==  Address 0x4d6ad98 is 0 bytes after a block of size 8 alloc'd
+==840450==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==840450==    by 0x1092AD: main (t2.cpp:16)
+==840450== 
+==840450== Invalid read of size 1
+==840450==    at 0x109420: main (t2.cpp:36)
+==840450==  Address 0x4d6ad48 is 0 bytes after a block of size 8 alloc'd
+==840450==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==840450==    by 0x1092AD: main (t2.cpp:16)
+==840450== 
+==840450== Invalid read of size 1
+==840450==    at 0x1094D9: main (t2.cpp:44)
+==840450==  Address 0x4d6ade8 is 0 bytes after a block of size 8 alloc'd
+==840450==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==840450==    by 0x1092AD: main (t2.cpp:16)
+==840450== 
