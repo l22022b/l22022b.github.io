@@ -1,25 +1,25 @@
-==1234929== Invalid read of size 1
-==1234929==    at 0x109241: verifica(int, int, int, char**) (t2.cpp:8)
-==1234929==    by 0x10933B: soma(int, int, int, char**) (t2.cpp:32)
-==1234929==    by 0x1093DE: bombas(int, char**) (t2.cpp:43)
-==1234929==    by 0x109540: main (t2.cpp:70)
-==1234929==  Address 0x4d6ad48 is 0 bytes after a block of size 8 alloc'd
-==1234929==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
-==1234929==    by 0x109472: main (t2.cpp:57)
-==1234929== 
-==1234929== Invalid read of size 1
-==1234929==    at 0x10935F: soma(int, int, int, char**) (t2.cpp:32)
-==1234929==    by 0x1093DE: bombas(int, char**) (t2.cpp:43)
-==1234929==    by 0x109540: main (t2.cpp:70)
-==1234929==  Address 0x4d6ad48 is 0 bytes after a block of size 8 alloc'd
-==1234929==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
-==1234929==    by 0x109472: main (t2.cpp:57)
-==1234929== 
-==1234929== Invalid write of size 1
-==1234929==    at 0x109365: soma(int, int, int, char**) (t2.cpp:32)
-==1234929==    by 0x1093DE: bombas(int, char**) (t2.cpp:43)
-==1234929==    by 0x109540: main (t2.cpp:70)
-==1234929==  Address 0x4d6ad48 is 0 bytes after a block of size 8 alloc'd
-==1234929==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
-==1234929==    by 0x109472: main (t2.cpp:57)
-==1234929== 
+==1238187== Invalid read of size 1
+==1238187==    at 0x109241: verifica(int, int, int, char**) (t2.cpp:8)
+==1238187==    by 0x10933B: soma(int, int, int, char**) (t2.cpp:32)
+==1238187==    by 0x1093DE: bombas(int, char**) (t2.cpp:43)
+==1238187==    by 0x109540: main (t2.cpp:70)
+==1238187==  Address 0x4d6ad48 is 0 bytes after a block of size 8 alloc'd
+==1238187==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==1238187==    by 0x109472: main (t2.cpp:57)
+==1238187== 
+==1238187== Invalid read of size 1
+==1238187==    at 0x10935F: soma(int, int, int, char**) (t2.cpp:32)
+==1238187==    by 0x1093DE: bombas(int, char**) (t2.cpp:43)
+==1238187==    by 0x109540: main (t2.cpp:70)
+==1238187==  Address 0x4d6ad48 is 0 bytes after a block of size 8 alloc'd
+==1238187==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==1238187==    by 0x109472: main (t2.cpp:57)
+==1238187== 
+==1238187== Invalid write of size 1
+==1238187==    at 0x109365: soma(int, int, int, char**) (t2.cpp:32)
+==1238187==    by 0x1093DE: bombas(int, char**) (t2.cpp:43)
+==1238187==    by 0x109540: main (t2.cpp:70)
+==1238187==  Address 0x4d6ad48 is 0 bytes after a block of size 8 alloc'd
+==1238187==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==1238187==    by 0x109472: main (t2.cpp:57)
+==1238187== 
