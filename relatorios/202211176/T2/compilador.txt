@@ -1,0 +1,17 @@
+t2.cpp:5:1: error: ‘inicializa_matriz’ function uses ‘auto’ type specifier without trailing return type
+    5 | auto inicializa_matriz(int n)
+      | ^~~~
+t2.cpp:5:1: note: deduced return type only available with ‘-std=c++14’ or ‘-std=gnu++14’
+t2.cpp: In function ‘auto inicializa_matriz(int)’:
+t2.cpp:16:16: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+   16 |         matriz[i] = new char[n];
+      |                ^
+t2.cpp: At global scope:
+t2.cpp:31:1: error: ‘preenche_matriz’ function uses ‘auto’ type specifier without trailing return type
+   31 | auto preenche_matriz(char** matriz, int tam)
+      | ^~~~
+t2.cpp:31:1: note: deduced return type only available with ‘-std=c++14’ or ‘-std=gnu++14’
+t2.cpp:55:1: error: ‘deleta_matriz’ function uses ‘auto’ type specifier without trailing return type
+   55 | auto deleta_matriz(char** matriz, int tam)
+      | ^~~~
+t2.cpp:55:1: note: deduced return type only available with ‘-std=c++14’ or ‘-std=gnu++14’

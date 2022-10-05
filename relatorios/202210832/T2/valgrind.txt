@@ -1,0 +1,10 @@
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  stoi
+==1227169== 144 bytes in 1 blocks are possibly lost in loss record 2 of 2
+==1227169==    at 0x483877F: malloc (vg_replace_malloc.c:307)
+==1227169==    by 0x49078DF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1227169==    by 0x490001D: std::__throw_invalid_argument(char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1227169==    by 0x10AC7C: int __gnu_cxx::__stoa<long, int, char, int>(long (*)(char const*, char**, int), char const*, char const*, unsigned long*, int) (string_conversions.h:83)
+==1227169==    by 0x10AB4B: std::__cxx11::stoi(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long*, int) (basic_string.h:6557)
+==1227169==    by 0x10A7B3: main (t2.cpp:61)
+==1227169== 
