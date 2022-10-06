@@ -1,0 +1,4 @@
+t2.cpp: In function ‘void print(std::vector<bomba>, int**, int)’:
+t2.cpp:19:41: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<bomba>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   19 |                 for(auto vetor=0; vetor < local_bomba.size(); vetor++)
+      |                                   ~~~~~~^~~~~~~~~~~~~~~~~~~~

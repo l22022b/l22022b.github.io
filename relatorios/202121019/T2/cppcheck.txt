@@ -1,0 +1,9 @@
+main.cpp:75:12: style: Local variable 'i' shadows outer variable [shadowVariable]
+  for (int i = 0; i < fieldSize; i++)
+           ^
+main.cpp:65:7: note: Shadowed declaration
+  int i = 0;
+      ^
+main.cpp:75:12: note: Shadow variable
+  for (int i = 0; i < fieldSize; i++)
+           ^

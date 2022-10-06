@@ -1,3 +1,6 @@
 t2.cpp:51:13: style: The scope of the variable 'cont' can be reduced. [variableScope]
-    int tam,cont;
+    int tam,cont=0;
             ^
+t2.cpp:51:17: style: Variable 'cont' is assigned a value that is never used. [unreadVariable]
+    int tam,cont=0;
+                ^

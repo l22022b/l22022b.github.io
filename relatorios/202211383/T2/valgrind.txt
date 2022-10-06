@@ -1,0 +1,26 @@
+==1366486== Conditional jump or move depends on uninitialised value(s)
+==1366486==    at 0x497A82C: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1366486==    by 0x4987E75: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1366486==    by 0x109350: print(std::vector<bomba, std::allocator<bomba> >, int**, int) (t2.cpp:26)
+==1366486==    by 0x10961D: main (t2.cpp:72)
+==1366486== 
+==1366486== Use of uninitialised value of size 8
+==1366486==    at 0x497A583: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1366486==    by 0x497A856: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1366486==    by 0x4987E75: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1366486==    by 0x109350: print(std::vector<bomba, std::allocator<bomba> >, int**, int) (t2.cpp:26)
+==1366486==    by 0x10961D: main (t2.cpp:72)
+==1366486== 
+==1366486== Conditional jump or move depends on uninitialised value(s)
+==1366486==    at 0x497A595: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1366486==    by 0x497A856: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1366486==    by 0x4987E75: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1366486==    by 0x109350: print(std::vector<bomba, std::allocator<bomba> >, int**, int) (t2.cpp:26)
+==1366486==    by 0x10961D: main (t2.cpp:72)
+==1366486== 
+==1366486== Conditional jump or move depends on uninitialised value(s)
+==1366486==    at 0x497A88B: std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1366486==    by 0x4987E75: std::ostream& std::ostream::_M_insert<long>(long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1366486==    by 0x109350: print(std::vector<bomba, std::allocator<bomba> >, int**, int) (t2.cpp:26)
+==1366486==    by 0x10961D: main (t2.cpp:72)
+==1366486== 
