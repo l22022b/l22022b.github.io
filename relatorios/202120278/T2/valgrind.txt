@@ -1,0 +1,7 @@
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Nao foi possivel abrir arquivo!
+==2200384== 144 bytes in 1 blocks are possibly lost in loss record 2 of 2
+==2200384==    at 0x483877F: malloc (vg_replace_malloc.c:307)
+==2200384==    by 0x49078DF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==2200384==    by 0x109308: main (trab2.cpp:13)
+==2200384== 

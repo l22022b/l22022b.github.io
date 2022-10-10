@@ -1,9 +1,5 @@
-==1366129== Conditional jump or move depends on uninitialised value(s)
-==1366129==    at 0x483BCF8: __strlen_sse2 (vg_replace_strmem.c:461)
-==1366129==    by 0x4987CF9: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
-==1366129==    by 0x10970A: main (main.cpp:76)
-==1366129== 
-==1366129== 144 (72 direct, 72 indirect) bytes in 1 blocks are definitely lost in loss record 2 of 2
-==1366129==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
-==1366129==    by 0x1095FF: main (main.cpp:60)
-==1366129== 
+==2200244== Conditional jump or move depends on uninitialised value(s)
+==2200244==    at 0x483BCF8: __strlen_sse2 (vg_replace_strmem.c:461)
+==2200244==    by 0x4987CF9: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==2200244==    by 0x10970A: main (main.cpp:77)
+==2200244== 
