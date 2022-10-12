@@ -1,0 +1,22 @@
+==2552200== Invalid free() / delete / delete[] / realloc()
+==2552200==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
+==2552200==    by 0x10AF57: __gnu_cxx::new_allocator<std::_List_node<double> >::deallocate(std::_List_node<double>*, unsigned long) (new_allocator.h:133)
+==2552200==    by 0x10AD9D: std::allocator_traits<std::allocator<std::_List_node<double> > >::deallocate(std::allocator<std::_List_node<double> >&, std::_List_node<double>*, unsigned long) (alloc_traits.h:492)
+==2552200==    by 0x10A9D3: std::__cxx11::_List_base<double, std::allocator<double> >::_M_put_node(std::_List_node<double>*) (stl_list.h:446)
+==2552200==    by 0x10A860: std::__cxx11::list<double, std::allocator<double> >::_M_erase(std::_List_iterator<double>) (stl_list.h:1930)
+==2552200==    by 0x10A3CB: std::__cxx11::list<double, std::allocator<double> >::pop_front() (stl_list.h:1198)
+==2552200==    by 0x109C44: main (t3.cpp:123)
+==2552200==  Address 0x1ffefff110 is on thread 1's stack
+==2552200==  in frame #6, created by main (t3.cpp:22)
+==2552200== 
+==2552200== Invalid free() / delete / delete[] / realloc()
+==2552200==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
+==2552200==    by 0x10AF89: __gnu_cxx::new_allocator<std::_List_node<short> >::deallocate(std::_List_node<short>*, unsigned long) (new_allocator.h:133)
+==2552200==    by 0x10ADF5: std::allocator_traits<std::allocator<std::_List_node<short> > >::deallocate(std::allocator<std::_List_node<short> >&, std::_List_node<short>*, unsigned long) (alloc_traits.h:492)
+==2552200==    by 0x10AA5D: std::__cxx11::_List_base<short, std::allocator<short> >::_M_put_node(std::_List_node<short>*) (stl_list.h:446)
+==2552200==    by 0x10A8D6: std::__cxx11::list<short, std::allocator<short> >::_M_erase(std::_List_iterator<short>) (stl_list.h:1930)
+==2552200==    by 0x10A3F9: std::__cxx11::list<short, std::allocator<short> >::pop_front() (stl_list.h:1198)
+==2552200==    by 0x109C62: main (t3.cpp:125)
+==2552200==  Address 0x1ffefff0d0 is on thread 1's stack
+==2552200==  in frame #6, created by main (t3.cpp:22)
+==2552200== 

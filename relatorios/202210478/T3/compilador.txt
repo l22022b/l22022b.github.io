@@ -1,0 +1,4 @@
+trab3_FernandoPozzer.cpp: In function ‘int main()’:
+trab3_FernandoPozzer.cpp:89:12: warning: unused variable ‘aliquota’ [-Wunused-variable]
+   89 |     double aliquota;
+      |            ^~~~~~~~

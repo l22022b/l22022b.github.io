@@ -1,0 +1,4 @@
+trab3.cpp: In function ‘int main()’:
+trab3.cpp:39:12: warning: unused variable ‘valor_total’ [-Wunused-variable]
+   39 |     double valor_total=0;
+      |            ^~~~~~~~~~~

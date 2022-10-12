@@ -1,0 +1,15 @@
+t3.cpp:19:26: style: Condition 'delta_tempo>=2' is always true [knownConditionTrueFalse]
+    else if (delta_tempo >= 2 && delta_tempo < 4)
+                         ^
+t3.cpp:17:21: note: Assuming that condition 'delta_tempo<2' is not redundant
+    if (delta_tempo < 2)
+                    ^
+t3.cpp:19:26: note: Condition 'delta_tempo>=2' is always true
+    else if (delta_tempo >= 2 && delta_tempo < 4)
+                         ^
+t3.cpp:30:12: error: Uninitialized variable: aliquotaIR [uninitvar]
+    return aliquotaIR;
+           ^
+t3.cpp:44:29: error: Uninitialized struct member: novo.cotas [uninitStructMember]
+        operacoes.push_back(novo);
+                            ^

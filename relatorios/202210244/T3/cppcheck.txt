@@ -1,0 +1,12 @@
+main.cpp:18:19: style: Condition 'diff>=2' is always true [knownConditionTrueFalse]
+    }else if(diff >= 2 && diff < 4){
+                  ^
+main.cpp:16:13: note: Assuming condition 'diff<2' is false
+    if(diff < 2){
+            ^
+main.cpp:18:19: note: Condition 'diff>=2' is always true
+    }else if(diff >= 2 && diff < 4){
+                  ^
+main.cpp:7:10: style: struct member 'Operation::op' is never used. [unusedStructMember]
+    char op;
+         ^

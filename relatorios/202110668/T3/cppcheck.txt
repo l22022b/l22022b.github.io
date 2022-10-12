@@ -1,0 +1,9 @@
+Trab3.cpp:89:18: style: Condition 'anos>=2' is always true [knownConditionTrueFalse]
+    else if(anos >= 2 && anos < 4){
+                 ^
+Trab3.cpp:86:13: note: Assuming that condition 'anos<2' is not redundant
+    if(anos < 2){
+            ^
+Trab3.cpp:89:18: note: Condition 'anos>=2' is always true
+    else if(anos >= 2 && anos < 4){
+                 ^

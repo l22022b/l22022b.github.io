@@ -1,0 +1,9 @@
+t3-Eduardo-Bender.cpp:21:16: style: Condition '10>(anoRes-anoApo)' is always true [knownConditionTrueFalse]
+    else if (10>(anoRes-anoApo) && (anoRes-anoApo)>=8) return 0.15;
+               ^
+t3-Eduardo-Bender.cpp:20:23: note: Assuming condition '(anoRes-anoApo)>=10' is false
+    if((anoRes-anoApo)>=10) return 0.1;
+                      ^
+t3-Eduardo-Bender.cpp:21:16: note: Condition '10>(anoRes-anoApo)' is always true
+    else if (10>(anoRes-anoApo) && (anoRes-anoApo)>=8) return 0.15;
+               ^

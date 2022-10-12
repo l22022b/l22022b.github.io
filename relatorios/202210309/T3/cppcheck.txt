@@ -1,0 +1,15 @@
+t3-LuisDias.cpp:52:23: style: Condition 'variacao>=2' is always true [knownConditionTrueFalse]
+    else if (variacao >= 2 && variacao < 4) return 0.30;
+                      ^
+t3-LuisDias.cpp:51:18: note: Assuming that condition 'variacao<2' is not redundant
+    if (variacao < 2) return 0.35;
+                 ^
+t3-LuisDias.cpp:52:23: note: Condition 'variacao>=2' is always true
+    else if (variacao >= 2 && variacao < 4) return 0.30;
+                      ^
+t3-LuisDias.cpp:77:12: style: The scope of the variable 'soma' can be reduced. [variableScope]
+    double soma{0};
+           ^
+t3-LuisDias.cpp:59:0: style: The function 'resgateCompleto' is never used. [unusedFunction]
+
+^

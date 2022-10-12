@@ -1,0 +1,3 @@
+trab3_FernandoPozzer.cpp:89:12: style: Unused variable: aliquota [unusedVariable]
+    double aliquota;
+           ^

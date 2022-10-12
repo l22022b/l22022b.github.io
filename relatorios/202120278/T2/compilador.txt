@@ -1,0 +1,4 @@
+trab2.cpp: In function ‘int main()’:
+trab2.cpp:12:5: error: ‘entrada’ was not declared in this scope
+   12 |     entrada >> size;
+      |     ^~~~~~~
