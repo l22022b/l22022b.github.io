@@ -1,0 +1,3 @@
+t3-AntonioDallAgnol.cpp:55:26: style: Variable 'imposto' is assigned a value that is never used. [unreadVariable]
+    double valor, imposto=0;
+                         ^

@@ -1,0 +1,9 @@
+t3-gpcosta.cpp:21:22: style: Condition 'anos_passados<10' is always true [knownConditionTrueFalse]
+    if(anos_passados < 10 && anos_passados >= 8) return 0.15;
+                     ^
+t3-gpcosta.cpp:20:22: note: Assuming condition 'anos_passados>=10' is false
+    if(anos_passados >= 10) return 0.10;
+                     ^
+t3-gpcosta.cpp:21:22: note: Condition 'anos_passados<10' is always true
+    if(anos_passados < 10 && anos_passados >= 8) return 0.15;
+                     ^

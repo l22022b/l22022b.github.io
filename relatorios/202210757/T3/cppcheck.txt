@@ -1,0 +1,9 @@
+t3.cpp:52:7: style: The scope of the variable 'rescueAll' can be reduced. [variableScope]
+ bool rescueAll;
+      ^
+t3.cpp:56:13: style: Variable 'rescueAll' is assigned a value that is never used. [unreadVariable]
+  rescueAll = false;
+            ^
+t3.cpp:51:9: style: Unused variable: sum [unusedVariable]
+ double sum;
+        ^

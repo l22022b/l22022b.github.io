@@ -1,0 +1,4 @@
+t3.cpp: In function ‘int main()’:
+t3.cpp:51:9: warning: unused variable ‘sum’ [-Wunused-variable]
+   51 |  double sum;
+      |         ^~~

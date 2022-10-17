@@ -1,0 +1,3 @@
+t3ehveroneze.cpp:8:1: style: The class 'Aporte' does not have a constructor although it has private member variables. [noConstructor]
+class Aporte {
+^
