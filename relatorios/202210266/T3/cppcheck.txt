@@ -1,18 +1,15 @@
-trab3.cpp:16:59: performance: Function parameter 'transacoes' should be passed by const reference. [passedByValue]
-void retirada(std::list<previdencia*> &lista, previdencia transacoes){
-                                                          ^
-trab3.cpp:30:20: error: Iterator 'it' used after element has been erased. [eraseDereference]
-        lista.erase(it);
-                   ^
-trab3.cpp:24:5: note: Iterator 'it' used after element has been erased.
-    for(auto it = lista.begin(); it != lista.end(); it++){
-    ^
-trab3.cpp:30:20: note: Iterator 'it' used after element has been erased.
-        lista.erase(it);
-                   ^
-trab3.cpp:60:33: error: Uninitialized struct member: transacoes.cotas [uninitStructMember]
-                retirada(lista, transacoes);
-                                ^
-trab3.cpp:39:23: style: Variable 'valor_total' is assigned a value that is never used. [unreadVariable]
-    double valor_total=0;
-                      ^
+trab3.cpp:84:12: style: The scope of the variable 'lucro' can be reduced. [variableScope]
+    double lucro = 0;
+           ^
+trab3.cpp:18:18: style: Variable 'lucro' is assigned a value that is never used. [unreadVariable]
+    double lucro = 0;
+                 ^
+trab3.cpp:84:18: style: Variable 'lucro' is assigned a value that is never used. [unreadVariable]
+    double lucro = 0;
+                 ^
+trab3.cpp:89:22: style: Variable 'transacoes.cotas' is assigned a value that is never used. [unreadVariable]
+    transacoes.cotas = transacoes.valor / transacoes.preco_cota;
+                     ^
+trab3.cpp:119:24: style: Variable 'valor_total' is assigned a value that is never used. [unreadVariable]
+    double valor_total = 0;
+                       ^

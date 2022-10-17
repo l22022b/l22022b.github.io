@@ -1,0 +1,20 @@
+==3529285== Conditional jump or move depends on uninitialised value(s)
+==3529285==    at 0x109220: ve_ano(int) (t3.cpp:11)
+==3529285==    by 0x1094A6: main (t3.cpp:48)
+==3529285== 
+==3529285== Conditional jump or move depends on uninitialised value(s)
+==3529285==    at 0x109230: ve_ano(int) (t3.cpp:13)
+==3529285==    by 0x1094A6: main (t3.cpp:48)
+==3529285== 
+==3529285== Conditional jump or move depends on uninitialised value(s)
+==3529285==    at 0x109240: ve_ano(int) (t3.cpp:15)
+==3529285==    by 0x1094A6: main (t3.cpp:48)
+==3529285== 
+==3529285== Conditional jump or move depends on uninitialised value(s)
+==3529285==    at 0x109250: ve_ano(int) (t3.cpp:17)
+==3529285==    by 0x1094A6: main (t3.cpp:48)
+==3529285== 
+==3529285== Conditional jump or move depends on uninitialised value(s)
+==3529285==    at 0x109260: ve_ano(int) (t3.cpp:19)
+==3529285==    by 0x1094A6: main (t3.cpp:48)
+==3529285== 

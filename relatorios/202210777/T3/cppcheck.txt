@@ -1,12 +1,3 @@
-T3-MariaClaraBohn.cpp:18:20: style: Condition 'tempo>=2' is always true [knownConditionTrueFalse]
-    else if (tempo >= 2 && tempo < 4)
-                   ^
-T3-MariaClaraBohn.cpp:16:15: note: Assuming that condition 'tempo<2' is not redundant
-    if (tempo < 2)
-              ^
-T3-MariaClaraBohn.cpp:18:20: note: Condition 'tempo>=2' is always true
-    else if (tempo >= 2 && tempo < 4)
-                   ^
 T3-MariaClaraBohn.cpp:31:21: style: The scope of the variable 'auxImposto' can be reduced. [variableScope]
     double imposto, auxImposto;
                     ^
