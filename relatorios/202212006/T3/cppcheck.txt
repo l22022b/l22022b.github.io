@@ -1,0 +1,12 @@
+t3.cpp:18:22: style: Condition 'diferenca>=2' is always true [knownConditionTrueFalse]
+    else if(diferenca>=2 && diferenca<4)    return 0.3;
+                     ^
+t3.cpp:17:17: note: Assuming condition 'diferenca<2' is false
+    if(diferenca<2) return 0.35;
+                ^
+t3.cpp:18:22: note: Condition 'diferenca>=2' is always true
+    else if(diferenca>=2 && diferenca<4)    return 0.3;
+                     ^
+t3.cpp:30:73: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+        for(list <operacao>::iterator a=aporte.begin(); a!=aporte.end();a++)
+                                                                        ^

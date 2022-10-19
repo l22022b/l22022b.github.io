@@ -1,24 +1,9 @@
-t3-FranciscoJr04.cpp:20:21: style: Condition 'qtd_anos>=2' is always true [knownConditionTrueFalse]
+t3-FranciscoJr04.cpp:21:21: style: Condition 'qtd_anos>=2' is always true [knownConditionTrueFalse]
     else if(qtd_anos>=2 && qtd_anos<4)
                     ^
-t3-FranciscoJr04.cpp:18:16: note: Assuming condition 'qtd_anos<2' is false
+t3-FranciscoJr04.cpp:19:16: note: Assuming condition 'qtd_anos<2' is false
     if(qtd_anos<2)
                ^
-t3-FranciscoJr04.cpp:20:21: note: Condition 'qtd_anos>=2' is always true
+t3-FranciscoJr04.cpp:21:21: note: Condition 'qtd_anos>=2' is always true
     else if(qtd_anos>=2 && qtd_anos<4)
                     ^
-t3-FranciscoJr04.cpp:48:12: style: The scope of the variable 'total_cotas' can be reduced. [variableScope]
-    double total_cotas,soma_aportes,total_imposto;
-           ^
-t3-FranciscoJr04.cpp:48:24: style: The scope of the variable 'soma_aportes' can be reduced. [variableScope]
-    double total_cotas,soma_aportes,total_imposto;
-                       ^
-t3-FranciscoJr04.cpp:48:37: style: The scope of the variable 'total_imposto' can be reduced. [variableScope]
-    double total_cotas,soma_aportes,total_imposto;
-                                    ^
-t3-FranciscoJr04.cpp:64:20: style: Variable 'total_cotas' is assigned a value that is never used. [unreadVariable]
-        total_cotas=0.0;
-                   ^
-t3-FranciscoJr04.cpp:36:0: style: The function 'lucro_em_cotas' is never used. [unusedFunction]
-
-^

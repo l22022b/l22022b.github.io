@@ -1,20 +1,20 @@
-==3532678== Conditional jump or move depends on uninitialised value(s)
-==3532678==    at 0x109220: ve_ano(int) (t3.cpp:11)
-==3532678==    by 0x1094A6: main (t3.cpp:48)
-==3532678== 
-==3532678== Conditional jump or move depends on uninitialised value(s)
-==3532678==    at 0x109230: ve_ano(int) (t3.cpp:13)
-==3532678==    by 0x1094A6: main (t3.cpp:48)
-==3532678== 
-==3532678== Conditional jump or move depends on uninitialised value(s)
-==3532678==    at 0x109240: ve_ano(int) (t3.cpp:15)
-==3532678==    by 0x1094A6: main (t3.cpp:48)
-==3532678== 
-==3532678== Conditional jump or move depends on uninitialised value(s)
-==3532678==    at 0x109250: ve_ano(int) (t3.cpp:17)
-==3532678==    by 0x1094A6: main (t3.cpp:48)
-==3532678== 
-==3532678== Conditional jump or move depends on uninitialised value(s)
-==3532678==    at 0x109260: ve_ano(int) (t3.cpp:19)
-==3532678==    by 0x1094A6: main (t3.cpp:48)
-==3532678== 
+==3918635== Conditional jump or move depends on uninitialised value(s)
+==3918635==    at 0x109220: ve_ano(int) (t3.cpp:11)
+==3918635==    by 0x1094A6: main (t3.cpp:48)
+==3918635== 
+==3918635== Conditional jump or move depends on uninitialised value(s)
+==3918635==    at 0x109230: ve_ano(int) (t3.cpp:13)
+==3918635==    by 0x1094A6: main (t3.cpp:48)
+==3918635== 
+==3918635== Conditional jump or move depends on uninitialised value(s)
+==3918635==    at 0x109240: ve_ano(int) (t3.cpp:15)
+==3918635==    by 0x1094A6: main (t3.cpp:48)
+==3918635== 
+==3918635== Conditional jump or move depends on uninitialised value(s)
+==3918635==    at 0x109250: ve_ano(int) (t3.cpp:17)
+==3918635==    by 0x1094A6: main (t3.cpp:48)
+==3918635== 
+==3918635== Conditional jump or move depends on uninitialised value(s)
+==3918635==    at 0x109260: ve_ano(int) (t3.cpp:19)
+==3918635==    by 0x1094A6: main (t3.cpp:48)
+==3918635== 

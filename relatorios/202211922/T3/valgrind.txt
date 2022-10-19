@@ -1,0 +1,11 @@
+==3919172== Invalid free() / delete / delete[] / realloc()
+==3919172==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
+==3919172==    by 0x10A91F: __gnu_cxx::new_allocator<std::_List_node<Operacao> >::deallocate(std::_List_node<Operacao>*, unsigned long) (new_allocator.h:133)
+==3919172==    by 0x10A6D1: std::allocator_traits<std::allocator<std::_List_node<Operacao> > >::deallocate(std::allocator<std::_List_node<Operacao> >&, std::_List_node<Operacao>*, unsigned long) (alloc_traits.h:492)
+==3919172==    by 0x10A421: std::__cxx11::_List_base<Operacao, std::allocator<Operacao> >::_M_put_node(std::_List_node<Operacao>*) (stl_list.h:446)
+==3919172==    by 0x10A31C: std::__cxx11::list<Operacao, std::allocator<Operacao> >::_M_erase(std::_List_iterator<Operacao>) (stl_list.h:1930)
+==3919172==    by 0x109FDD: std::__cxx11::list<Operacao, std::allocator<Operacao> >::pop_front() (stl_list.h:1198)
+==3919172==    by 0x10994B: main (t3-FranciscoJr04.cpp:89)
+==3919172==  Address 0x1ffefff160 is on thread 1's stack
+==3919172==  in frame #6, created by main (t3-FranciscoJr04.cpp:43)
+==3919172== 
