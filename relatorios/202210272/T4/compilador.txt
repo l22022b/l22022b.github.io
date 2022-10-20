@@ -1,0 +1,7 @@
+planilhas.cpp: In function ‘void resolver(std::map<std::__cxx11::basic_string<char>, Celula>*, Celula*)’:
+planilhas.cpp:29:20: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   29 |  for (int i = 0; i < celula->formula.size(); i++) {
+      |                  ~~^~~~~~~~~~~~~~~~~~~~~~~~
+planilhas.cpp:40:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   40 |   for (int i = 0; i < celula->formula.size(); i++) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~

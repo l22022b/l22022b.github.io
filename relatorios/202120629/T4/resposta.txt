@@ -1,0 +1,15 @@
+*** relatorios/202120629/T4/saida.txt	2022-10-20 08:05:07.492918049 -0300
+--- ./entradas/t4/planilha.out	2022-10-20 08:01:32.439445387 -0300
+***************
+*** 1,5 ****
+! Chave: A1 - Valor: 3
+! Chave: A13 - Valor: 
+! Chave: B1 - Valor: 2
+! Chave: C1 - Valor: =A1+B1
+! Chave: D1 - Valor: =1+C1/2
+--- 1,5 ----
+! A1 3
+! A13 5
+! B1 2
+! C1 5
+! D1 4

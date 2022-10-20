@@ -1,0 +1,3 @@
+calculadora.cpp:24:0: style: The function 'destroi' is never used. [unusedFunction]
+
+^

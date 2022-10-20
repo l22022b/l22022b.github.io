@@ -1,0 +1,9 @@
+t3.cpp:21:14: style: Condition 'n>=2' is always true [knownConditionTrueFalse]
+    else if(n>=2 && n<4) return 0.30;
+             ^
+t3.cpp:19:9: note: Assuming condition 'n<2' is false
+    if(n<2) return 0.35;
+        ^
+t3.cpp:21:14: note: Condition 'n>=2' is always true
+    else if(n>=2 && n<4) return 0.30;
+             ^

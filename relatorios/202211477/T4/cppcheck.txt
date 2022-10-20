@@ -1,0 +1,11 @@
+t4-jvrates.cpp:398:36: performance: Function parameter 'S' should be passed by const reference. [passedByValue]
+  void operator=(const std::string S){
+                                   ^
+t4-jvrates.cpp:261:44: performance: Function parameter 'form' should be passed by const reference. [passedByValue]
+  bool input(std::string cell, std::string form){
+                                           ^
+t4-jvrates.cpp:34:0: style: The function 'cria' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+

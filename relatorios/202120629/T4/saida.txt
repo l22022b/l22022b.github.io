@@ -1,0 +1,5 @@
+Chave: A1 - Valor: 3
+Chave: A13 - Valor: 
+Chave: B1 - Valor: 2
+Chave: C1 - Valor: =A1+B1
+Chave: D1 - Valor: =1+C1/2

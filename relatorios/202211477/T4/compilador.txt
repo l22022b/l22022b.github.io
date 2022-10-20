@@ -1,0 +1,4 @@
+t4-jvrates.cpp:16:10: fatal error: catch2/catch.hpp: Arquivo ou diretório inexistente
+   16 | #include "catch2/catch.hpp"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.

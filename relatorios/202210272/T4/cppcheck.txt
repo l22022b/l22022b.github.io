@@ -1,0 +1,126 @@
+planilhas.cpp:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 108 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+catch.hpp:615:9: style: Class 'StringRef' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+        StringRef( char const* rawChars ) noexcept;
+        ^
+catch.hpp:622:9: style: Class 'StringRef' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+        StringRef( std::string const& stdString ) noexcept
+        ^
+catch.hpp:960:5: style: Class 'TestInvokerAsMethod' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    TestInvokerAsMethod( void (C::*testAsMethod)() ) noexcept : m_testAsMethod( testAsMethod ) {}
+    ^
+catch.hpp:2529:9: style: Class 'LazyExpression' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+        LazyExpression( bool isNegated );
+        ^
+catch.hpp:2908:9: style: Class 'Section' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+        Section( SectionInfo const& info );
+        ^
+catch.hpp:3047:9: style: Class 'ExceptionTranslatorRegistrar' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+        ExceptionTranslatorRegistrar( std::string(*translateFunction)( T& ) ) {
+        ^
+catch.hpp:3021:13: style: Class 'ExceptionTranslator' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            ExceptionTranslator( std::string(*translateFunction)( T& ) )
+            ^
+catch.hpp:3398:5: style: Class 'ExceptionMessageMatcher' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    ExceptionMessageMatcher(std::string const& message):
+    ^
+catch.hpp:3552:13: style: Struct 'EqualsMatcher' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            EqualsMatcher( CasedString const& comparator );
+            ^
+catch.hpp:3556:13: style: Struct 'ContainsMatcher' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            ContainsMatcher( CasedString const& comparator );
+            ^
+catch.hpp:3560:13: style: Struct 'StartsWithMatcher' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            StartsWithMatcher( CasedString const& comparator );
+            ^
+catch.hpp:3564:13: style: Struct 'EndsWithMatcher' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            EndsWithMatcher( CasedString const& comparator );
+            ^
+catch.hpp:3604:13: style: Struct 'ContainsElementMatcher' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            ContainsElementMatcher(T const &comparator) : m_comparator( comparator) {}
+            ^
+catch.hpp:3625:13: style: Struct 'ContainsMatcher' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            ContainsMatcher(std::vector<T, AllocComp> const &comparator) : m_comparator( comparator ) {}
+            ^
+catch.hpp:3655:13: style: Struct 'EqualsMatcher' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            EqualsMatcher(std::vector<T, AllocComp> const &comparator) : m_comparator( comparator ) {}
+            ^
+catch.hpp:3678:13: style: Struct 'ApproxMatcher' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            ApproxMatcher(std::vector<T, AllocComp> const& comparator) : m_comparator( comparator ) {}
+            ^
+catch.hpp:3713:13: style: Struct 'UnorderedEqualsMatcher' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            UnorderedEqualsMatcher(std::vector<T, AllocComp> const& target) : m_target(target) {}
+            ^
+catch.hpp:3918:5: style: Class 'GeneratorException' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    GeneratorException(const char* msg):
+    ^
+catch.hpp:3951:9: style: Class 'SingleValueGenerator' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+        SingleValueGenerator(T&& value) : m_value(std::move(value)) {}
+        ^
+catch.hpp:3969:9: style: Class 'FixedValuesGenerator' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+        FixedValuesGenerator( std::initializer_list<T> values ) : m_values( values ) {}
+        ^
+catch.hpp:3984:9: style: Class 'GeneratorWrapper' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+        GeneratorWrapper(std::unique_ptr<IGenerator<T>> generator):
+        ^
+catch.hpp:4027:9: style: Class 'Generators' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+        Generators(Gs &&... moreGenerators) {
+        ^
+catch.hpp:4402:9: style: Class 'Option' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+        Option( T const& _value )
+        ^
+catch.hpp:3353:13: style: Struct 'MatchNotOf < std :: exception >' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            MatchNotOf( MatcherBase<ArgT> const& underlyingMatcher ) : m_underlyingMatcher( underlyingMatcher ) {}
+            ^
+catch.hpp:3353:13: style: Struct 'MatchNotOf < std >' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            MatchNotOf( MatcherBase<ArgT> const& underlyingMatcher ) : m_underlyingMatcher( underlyingMatcher ) {}
+            ^
+catch.hpp:3353:13: style: Struct 'MatchNotOf < double >' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            MatchNotOf( MatcherBase<ArgT> const& underlyingMatcher ) : m_underlyingMatcher( underlyingMatcher ) {}
+            ^
+catch.hpp:3353:13: style: Struct 'MatchNotOf < std :: string >' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+            MatchNotOf( MatcherBase<ArgT> const& underlyingMatcher ) : m_underlyingMatcher( underlyingMatcher ) {}
+            ^
+planilhas.cpp:31:22: style: Condition 'celula->formula[i]!='-'' is always true [knownConditionTrueFalse]
+  celula->formula[i] != '-' || celula->formula[i] != '*' || celula->formula[i] != '/') {
+                     ^
+planilhas.cpp:30:87: note: Assuming that condition 'celula->formula[i]!='+'' is not redundant
+  if (!(celula->formula[i] >= '0' && celula->formula[i] <= '9') || celula->formula[i] != '+' ||
+                                                                                      ^
+planilhas.cpp:31:22: note: Condition 'celula->formula[i]!='-'' is always true
+  celula->formula[i] != '-' || celula->formula[i] != '*' || celula->formula[i] != '/') {
+                     ^
+planilhas.cpp:31:80: style: Condition 'celula->formula[i]!='/'' is always true [knownConditionTrueFalse]
+  celula->formula[i] != '-' || celula->formula[i] != '*' || celula->formula[i] != '/') {
+                                                                               ^
+planilhas.cpp:31:51: note: Assuming that condition 'celula->formula[i]!='*'' is not redundant
+  celula->formula[i] != '-' || celula->formula[i] != '*' || celula->formula[i] != '/') {
+                                                  ^
+planilhas.cpp:31:80: note: Condition 'celula->formula[i]!='/'' is always true
+  celula->formula[i] != '-' || celula->formula[i] != '*' || celula->formula[i] != '/') {
+                                                                               ^
+calculadora.hpp:79:22: style: Local variable 'op' shadows outer argument [shadowArgument]
+                char op = operadores.top();
+                     ^
+calculadora.hpp:74:24: note: Shadowed declaration
+    void operador(char op){
+                       ^
+calculadora.hpp:79:22: note: Shadow variable
+                char op = operadores.top();
+                     ^
+catch.hpp:1482:27: style: Consider using std::transform algorithm instead of a raw loop. [useStlAlgorithm]
+                intValues.push_back( static_cast<int>( enumValue ) );
+                          ^
+catch.hpp:3608:45: style: Consider using std::any_of algorithm instead of a raw loop. [useStlAlgorithm]
+                    if (el == m_comparator) {
+                                            ^
+catch.hpp:3634:47: style: Consider using std::any_of algorithm instead of a raw loop. [useStlAlgorithm]
+                        if (el == comparator) {
+                                              ^
+planilhas.cpp:74:21: error: Uninitialized struct member: nova_celula.valor [uninitStructMember]
+  celulas[celula] = nova_celula;
+                    ^
+catch.hpp:4869:20: error: syntax error: =[...]; [syntaxError]
+            id obj = [[m_cls alloc] init];
+                   ^
