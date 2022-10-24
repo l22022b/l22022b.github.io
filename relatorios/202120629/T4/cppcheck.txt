@@ -1,0 +1,21 @@
+T4.cpp:102:13: style: The scope of the variable 'x' can be reduced. [variableScope]
+        int x = 0, y = 0, z = 0;
+            ^
+T4.cpp:102:20: style: The scope of the variable 'y' can be reduced. [variableScope]
+        int x = 0, y = 0, z = 0;
+                   ^
+T4.cpp:102:27: style: The scope of the variable 'z' can be reduced. [variableScope]
+        int x = 0, y = 0, z = 0;
+                          ^
+T4.cpp:54:31: performance: Function parameter 'key' should be passed by const reference. [passedByValue]
+int ValorDaCelula(std::string key, std::string st)
+                              ^
+T4.cpp:102:29: style: Variable 'z' is assigned a value that is never used. [unreadVariable]
+        int x = 0, y = 0, z = 0;
+                            ^
+T4.cpp:86:0: style: The function 'Imprime' is never used. [unusedFunction]
+
+^
+T4.cpp:54:0: style: The function 'ValorDaCelula' is never used. [unusedFunction]
+
+^

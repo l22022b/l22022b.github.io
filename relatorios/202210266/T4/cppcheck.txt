@@ -1,21 +1,17 @@
-trab4.cpp:79:30: performance: Function parameter 'form' should be passed by const reference. [passedByValue]
-    void formula(std::string form){
-                             ^
-trab4.cpp:58:0: style: The function 'destroi' is never used. [unusedFunction]
+trab4.cpp:16:0: style: The function 'cria' is never used. [unusedFunction]
 
 ^
-trab4.cpp:102:0: style: The function 'fim' is never used. [unusedFunction]
+trab4.cpp:31:0: style: The function 'destroi' is never used. [unusedFunction]
 
 ^
-trab4.cpp:79:0: style: The function 'formula' is never used. [unusedFunction]
+trab4.cpp:124:0: style: The function 'fim' is never used. [unusedFunction]
 
 ^
-trab4.cpp:73:0: style: The function 'operador' is never used. [unusedFunction]
+trab4.cpp:101:0: style: The function 'formula' is never used. [unusedFunction]
 
 ^
-trab4.cpp:66:0: style: The function 'operando' is never used. [unusedFunction]
+trab4.cpp:158:0: style: The function 'resultado' is never used. [unusedFunction]
 
 ^
-trab4.cpp:111:0: style: The function 'resultado' is never used. [unusedFunction]
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
 
-^

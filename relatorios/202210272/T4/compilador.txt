@@ -5,3 +5,12 @@ planilhas.cpp:29:20: warning: comparison of integer expressions of different sig
 planilhas.cpp:40:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
    40 |   for (int i = 0; i < celula->formula.size(); i++) {
       |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~
+planilhas.cpp: At global scope:
+planilhas.cpp:63:5: error: redefinition of ‘int main(int, char**)’
+   63 | int main(int argc, char **argv) {
+      |     ^~~~
+In file included from calculadora.hpp:6,
+                 from planilhas.cpp:5:
+catch.hpp:17441:5: note: ‘int main(int, char**)’ previously defined here
+17441 | int main (int argc, char * argv[]) {
+      |     ^~~~

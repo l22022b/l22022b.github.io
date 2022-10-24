@@ -1,0 +1,48 @@
+trab3.cpp:21:17: style: Condition 'diferenca>=2' is always true [knownConditionTrueFalse]
+  if (diferenca >= 2 && diferenca < 4)
+                ^
+trab3.cpp:18:17: note: Assuming condition 'diferenca<2' is false
+  if (diferenca < 2)
+                ^
+trab3.cpp:21:17: note: Condition 'diferenca>=2' is always true
+  if (diferenca >= 2 && diferenca < 4)
+                ^
+trab3.cpp:81:14: style: Local variable 'resto' shadows outer variable [shadowVariable]
+        auto resto = it2->valor / it2->cota;
+             ^
+trab3.cpp:65:12: note: Shadowed declaration
+      auto resto = it2->valor / it2->cota;
+           ^
+trab3.cpp:81:14: note: Shadow variable
+        auto resto = it2->valor / it2->cota;
+             ^
+trab3.cpp:82:14: style: Local variable 'vl' shadows outer variable [shadowVariable]
+        auto vl = (it2->cota - it->cota) * sobra;
+             ^
+trab3.cpp:66:12: note: Shadowed declaration
+      auto vl = (it2->cota - it->cota) * resto;
+           ^
+trab3.cpp:82:14: note: Shadow variable
+        auto vl = (it2->cota - it->cota) * sobra;
+             ^
+trab3.cpp:84:14: style: Local variable 'lucro' shadows outer variable [shadowVariable]
+        auto lucro = vl * taxa1;
+             ^
+trab3.cpp:69:12: note: Shadowed declaration
+      auto lucro = vl * taxa;
+           ^
+trab3.cpp:84:14: note: Shadow variable
+        auto lucro = vl * taxa1;
+             ^
+trab3.cpp:59:60: warning: Missing bounds check for extra iterator increment in loop. [StlMissingComparison]
+  for (auto it2 = resgates.begin(); it2 != resgates.end(); it2++)
+                                                           ^
+trab3.cpp:79:9: note: Missing bounds check for extra iterator increment in loop.
+        it2++;
+        ^
+trab3.cpp:59:60: note: Missing bounds check for extra iterator increment in loop.
+  for (auto it2 = resgates.begin(); it2 != resgates.end(); it2++)
+                                                           ^
+trab3.cpp:58:15: style: Variable 'sobra' is assigned a value that is never used. [unreadVariable]
+  float sobra = 0;
+              ^

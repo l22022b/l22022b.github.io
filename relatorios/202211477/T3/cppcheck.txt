@@ -1,0 +1,18 @@
+t3-Jvrates.cpp:13:10: style: struct member 'output::bruto' is never used. [unusedStructMember]
+  double bruto = 0.0;
+         ^
+t3-Jvrates.cpp:14:10: style: struct member 'output::imposto' is never used. [unusedStructMember]
+  double imposto = 0.0;
+         ^
+t3-Jvrates.cpp:79:17: style: Variable 'lucroT' is assigned a value that is never used. [unreadVariable]
+  double lucroT = 0;
+                ^
+t3-Jvrates.cpp:91:16: style: Variable 'lucroT' is assigned a value that is never used. [unreadVariable]
+        lucroT += lucro;
+               ^
+t3-Jvrates.cpp:106:16: style: Variable 'lucroT' is assigned a value that is never used. [unreadVariable]
+        lucroT += lucro;
+               ^
+t3-Jvrates.cpp:116:14: style: Variable 'lucroT' is assigned a value that is never used. [unreadVariable]
+      lucroT += lucro;
+             ^

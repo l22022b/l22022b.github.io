@@ -1,0 +1,56 @@
+calculadora.cpp: In member function ‘void Calculadora<T>::formula(std::string)’:
+calculadora.cpp:107:43: error: no matching function for call to ‘stoi(__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type&)’
+  107 |                 operando(std::stoi(form[i]));
+      |                                           ^
+In file included from /usr/include/c++/10/string:55,
+                 from /usr/include/c++/10/bits/locale_classes.h:40,
+                 from /usr/include/c++/10/bits/ios_base.h:41,
+                 from /usr/include/c++/10/ios:42,
+                 from /usr/include/c++/10/ostream:38,
+                 from /usr/include/c++/10/iostream:39,
+                 from calculadora.cpp:1:
+/usr/include/c++/10/bits/basic_string.h:6556:3: note: candidate: ‘int std::__cxx11::stoi(const string&, std::size_t*, int)’
+ 6556 |   stoi(const string& __str, size_t* __idx = 0, int __base = 10)
+      |   ^~~~
+/usr/include/c++/10/bits/basic_string.h:6556:22: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type’ {aka ‘char’} to ‘const string&’ {aka ‘const std::__cxx11::basic_string<char>&’}
+ 6556 |   stoi(const string& __str, size_t* __idx = 0, int __base = 10)
+      |        ~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/10/bits/basic_string.h:6687:3: note: candidate: ‘int std::__cxx11::stoi(const wstring&, std::size_t*, int)’
+ 6687 |   stoi(const wstring& __str, size_t* __idx = 0, int __base = 10)
+      |   ^~~~
+/usr/include/c++/10/bits/basic_string.h:6687:23: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type’ {aka ‘char’} to ‘const wstring&’ {aka ‘const std::__cxx11::basic_string<wchar_t>&’}
+ 6687 |   stoi(const wstring& __str, size_t* __idx = 0, int __base = 10)
+      |        ~~~~~~~~~~~~~~~^~~~~
+calculadora.cpp: In instantiation of ‘void Calculadora<T>::formula(std::string) [with T = int; std::string = std::__cxx11::basic_string<char>]’:
+calculadora.cpp:173:19:   required from here
+calculadora.cpp:101:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  101 |         for(int i = 0; i < form.size(); i++)
+      |                        ~~^~~~~~~~~~~~~
+main.cpp: In member function ‘void Calculadora<T>::formula(std::string)’:
+main.cpp:107:43: error: no matching function for call to ‘stoi(__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type&)’
+  107 |                 operando(std::stoi(form[i]));
+      |                                           ^
+In file included from /usr/include/c++/10/string:55,
+                 from /usr/include/c++/10/bits/locale_classes.h:40,
+                 from /usr/include/c++/10/bits/ios_base.h:41,
+                 from /usr/include/c++/10/ios:42,
+                 from /usr/include/c++/10/ostream:38,
+                 from /usr/include/c++/10/iostream:39,
+                 from main.cpp:1:
+/usr/include/c++/10/bits/basic_string.h:6556:3: note: candidate: ‘int std::__cxx11::stoi(const string&, std::size_t*, int)’
+ 6556 |   stoi(const string& __str, size_t* __idx = 0, int __base = 10)
+      |   ^~~~
+/usr/include/c++/10/bits/basic_string.h:6556:22: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type’ {aka ‘char’} to ‘const string&’ {aka ‘const std::__cxx11::basic_string<char>&’}
+ 6556 |   stoi(const string& __str, size_t* __idx = 0, int __base = 10)
+      |        ~~~~~~~~~~~~~~^~~~~
+/usr/include/c++/10/bits/basic_string.h:6687:3: note: candidate: ‘int std::__cxx11::stoi(const wstring&, std::size_t*, int)’
+ 6687 |   stoi(const wstring& __str, size_t* __idx = 0, int __base = 10)
+      |   ^~~~
+/usr/include/c++/10/bits/basic_string.h:6687:23: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type’ {aka ‘char’} to ‘const wstring&’ {aka ‘const std::__cxx11::basic_string<wchar_t>&’}
+ 6687 |   stoi(const wstring& __str, size_t* __idx = 0, int __base = 10)
+      |        ~~~~~~~~~~~~~~~^~~~~
+main.cpp: In instantiation of ‘void Calculadora<T>::formula(std::string) [with T = int; std::string = std::__cxx11::basic_string<char>]’:
+main.cpp:173:19:   required from here
+main.cpp:101:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  101 |         for(int i = 0; i < form.size(); i++)
+      |                        ~~^~~~~~~~~~~~~

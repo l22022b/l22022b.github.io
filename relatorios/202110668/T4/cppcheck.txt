@@ -1,9 +1,6 @@
-Trab4.cpp:15:0: style: The function 'cria' is never used. [unusedFunction]
+Trab4.cpp:11:0: style: The function 'cria' is never used. [unusedFunction]
 
 ^
-Trab4.cpp:18:0: style: The function 'destroi' is never used. [unusedFunction]
-
-^
-Trab4.cpp:34:0: style: The function 'formula' is never used. [unusedFunction]
+Trab4.cpp:14:0: style: The function 'destroi' is never used. [unusedFunction]
 
 ^
