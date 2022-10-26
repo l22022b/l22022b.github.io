@@ -1,0 +1,12 @@
+t4-gpcosta.cpp:18:0: style: The function 'cria' is never used. [unusedFunction]
+
+^
+t4-gpcosta.cpp:118:0: style: The function 'fim' is never used. [unusedFunction]
+
+^
+t4-gpcosta.cpp:81:0: style: The function 'formula' is never used. [unusedFunction]
+
+^
+t4-gpcosta.cpp:130:0: style: The function 'resultado' is never used. [unusedFunction]
+
+^

@@ -1,103 +1,103 @@
-==651638== Invalid read of size 8
-==651638==    at 0x4998E14: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
-==651638==    by 0x109967: main (trab3.cpp:94)
-==651638==  Address 0x4d6b058 is 24 bytes inside a block of size 64 free'd
-==651638==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
-==651638==    by 0x10A5E3: __gnu_cxx::new_allocator<std::_List_node<Pre> >::deallocate(std::_List_node<Pre>*, unsigned long) (new_allocator.h:133)
-==651638==    by 0x10A48F: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::deallocate(std::allocator<std::_List_node<Pre> >&, std::_List_node<Pre>*, unsigned long) (alloc_traits.h:492)
-==651638==    by 0x10A25F: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_put_node(std::_List_node<Pre>*) (stl_list.h:446)
-==651638==    by 0x10A184: std::__cxx11::list<Pre, std::allocator<Pre> >::_M_erase(std::_List_iterator<Pre>) (stl_list.h:1930)
-==651638==    by 0x109F91: std::__cxx11::list<Pre, std::allocator<Pre> >::pop_front() (stl_list.h:1198)
-==651638==    by 0x109943: main (trab3.cpp:93)
-==651638==  Block was alloc'd at
-==651638==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
-==651638==    by 0x10A7C5: __gnu_cxx::new_allocator<std::_List_node<Pre> >::allocate(unsigned long, void const*) (new_allocator.h:115)
-==651638==    by 0x10A60E: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::allocate(std::allocator<std::_List_node<Pre> >&, unsigned long) (alloc_traits.h:460)
-==651638==    by 0x10A4B0: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_get_node() (stl_list.h:442)
-==651638==    by 0x10A28E: std::_List_node<Pre>* std::__cxx11::list<Pre, std::allocator<Pre> >::_M_create_node<Pre const&>(Pre const&) (stl_list.h:634)
-==651638==    by 0x10A0B1: void std::__cxx11::list<Pre, std::allocator<Pre> >::_M_insert<Pre const&>(std::_List_iterator<Pre>, Pre const&) (stl_list.h:1911)
-==651638==    by 0x109EA7: std::__cxx11::list<Pre, std::allocator<Pre> >::push_back(Pre const&) (stl_list.h:1212)
-==651638==    by 0x1094A2: main (trab3.cpp:52)
-==651638== 
-==651638== Invalid read of size 8
-==651638==    at 0x4998E1B: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
-==651638==    by 0x109967: main (trab3.cpp:94)
-==651638==  Address 0x4d6b050 is 16 bytes inside a block of size 64 free'd
-==651638==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
-==651638==    by 0x10A5E3: __gnu_cxx::new_allocator<std::_List_node<Pre> >::deallocate(std::_List_node<Pre>*, unsigned long) (new_allocator.h:133)
-==651638==    by 0x10A48F: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::deallocate(std::allocator<std::_List_node<Pre> >&, std::_List_node<Pre>*, unsigned long) (alloc_traits.h:492)
-==651638==    by 0x10A25F: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_put_node(std::_List_node<Pre>*) (stl_list.h:446)
-==651638==    by 0x10A184: std::__cxx11::list<Pre, std::allocator<Pre> >::_M_erase(std::_List_iterator<Pre>) (stl_list.h:1930)
-==651638==    by 0x109F91: std::__cxx11::list<Pre, std::allocator<Pre> >::pop_front() (stl_list.h:1198)
-==651638==    by 0x109943: main (trab3.cpp:93)
-==651638==  Block was alloc'd at
-==651638==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
-==651638==    by 0x10A7C5: __gnu_cxx::new_allocator<std::_List_node<Pre> >::allocate(unsigned long, void const*) (new_allocator.h:115)
-==651638==    by 0x10A60E: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::allocate(std::allocator<std::_List_node<Pre> >&, unsigned long) (alloc_traits.h:460)
-==651638==    by 0x10A4B0: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_get_node() (stl_list.h:442)
-==651638==    by 0x10A28E: std::_List_node<Pre>* std::__cxx11::list<Pre, std::allocator<Pre> >::_M_create_node<Pre const&>(Pre const&) (stl_list.h:634)
-==651638==    by 0x10A0B1: void std::__cxx11::list<Pre, std::allocator<Pre> >::_M_insert<Pre const&>(std::_List_iterator<Pre>, Pre const&) (stl_list.h:1911)
-==651638==    by 0x109EA7: std::__cxx11::list<Pre, std::allocator<Pre> >::push_back(Pre const&) (stl_list.h:1212)
-==651638==    by 0x1094A2: main (trab3.cpp:52)
-==651638== 
-==651638== Invalid read of size 1
-==651638==    at 0x4998DA2: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
-==651638==    by 0x109967: main (trab3.cpp:94)
-==651638==  Address 0x4d6b060 is 32 bytes inside a block of size 64 free'd
-==651638==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
-==651638==    by 0x10A5E3: __gnu_cxx::new_allocator<std::_List_node<Pre> >::deallocate(std::_List_node<Pre>*, unsigned long) (new_allocator.h:133)
-==651638==    by 0x10A48F: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::deallocate(std::allocator<std::_List_node<Pre> >&, std::_List_node<Pre>*, unsigned long) (alloc_traits.h:492)
-==651638==    by 0x10A25F: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_put_node(std::_List_node<Pre>*) (stl_list.h:446)
-==651638==    by 0x10A184: std::__cxx11::list<Pre, std::allocator<Pre> >::_M_erase(std::_List_iterator<Pre>) (stl_list.h:1930)
-==651638==    by 0x109F91: std::__cxx11::list<Pre, std::allocator<Pre> >::pop_front() (stl_list.h:1198)
-==651638==    by 0x109943: main (trab3.cpp:93)
-==651638==  Block was alloc'd at
-==651638==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
-==651638==    by 0x10A7C5: __gnu_cxx::new_allocator<std::_List_node<Pre> >::allocate(unsigned long, void const*) (new_allocator.h:115)
-==651638==    by 0x10A60E: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::allocate(std::allocator<std::_List_node<Pre> >&, unsigned long) (alloc_traits.h:460)
-==651638==    by 0x10A4B0: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_get_node() (stl_list.h:442)
-==651638==    by 0x10A28E: std::_List_node<Pre>* std::__cxx11::list<Pre, std::allocator<Pre> >::_M_create_node<Pre const&>(Pre const&) (stl_list.h:634)
-==651638==    by 0x10A0B1: void std::__cxx11::list<Pre, std::allocator<Pre> >::_M_insert<Pre const&>(std::_List_iterator<Pre>, Pre const&) (stl_list.h:1911)
-==651638==    by 0x109EA7: std::__cxx11::list<Pre, std::allocator<Pre> >::push_back(Pre const&) (stl_list.h:1212)
-==651638==    by 0x1094A2: main (trab3.cpp:52)
-==651638== 
-==651638== Invalid read of size 4
-==651638==    at 0x109981: main (trab3.cpp:94)
-==651638==  Address 0x4d6b074 is 52 bytes inside a block of size 64 free'd
-==651638==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
-==651638==    by 0x10A5E3: __gnu_cxx::new_allocator<std::_List_node<Pre> >::deallocate(std::_List_node<Pre>*, unsigned long) (new_allocator.h:133)
-==651638==    by 0x10A48F: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::deallocate(std::allocator<std::_List_node<Pre> >&, std::_List_node<Pre>*, unsigned long) (alloc_traits.h:492)
-==651638==    by 0x10A25F: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_put_node(std::_List_node<Pre>*) (stl_list.h:446)
-==651638==    by 0x10A184: std::__cxx11::list<Pre, std::allocator<Pre> >::_M_erase(std::_List_iterator<Pre>) (stl_list.h:1930)
-==651638==    by 0x109F91: std::__cxx11::list<Pre, std::allocator<Pre> >::pop_front() (stl_list.h:1198)
-==651638==    by 0x109943: main (trab3.cpp:93)
-==651638==  Block was alloc'd at
-==651638==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
-==651638==    by 0x10A7C5: __gnu_cxx::new_allocator<std::_List_node<Pre> >::allocate(unsigned long, void const*) (new_allocator.h:115)
-==651638==    by 0x10A60E: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::allocate(std::allocator<std::_List_node<Pre> >&, unsigned long) (alloc_traits.h:460)
-==651638==    by 0x10A4B0: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_get_node() (stl_list.h:442)
-==651638==    by 0x10A28E: std::_List_node<Pre>* std::__cxx11::list<Pre, std::allocator<Pre> >::_M_create_node<Pre const&>(Pre const&) (stl_list.h:634)
-==651638==    by 0x10A0B1: void std::__cxx11::list<Pre, std::allocator<Pre> >::_M_insert<Pre const&>(std::_List_iterator<Pre>, Pre const&) (stl_list.h:1911)
-==651638==    by 0x109EA7: std::__cxx11::list<Pre, std::allocator<Pre> >::push_back(Pre const&) (stl_list.h:1212)
-==651638==    by 0x1094A2: main (trab3.cpp:52)
-==651638== 
-==651638== Invalid read of size 4
-==651638==    at 0x10999A: main (trab3.cpp:94)
-==651638==  Address 0x4d6b078 is 56 bytes inside a block of size 64 free'd
-==651638==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
-==651638==    by 0x10A5E3: __gnu_cxx::new_allocator<std::_List_node<Pre> >::deallocate(std::_List_node<Pre>*, unsigned long) (new_allocator.h:133)
-==651638==    by 0x10A48F: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::deallocate(std::allocator<std::_List_node<Pre> >&, std::_List_node<Pre>*, unsigned long) (alloc_traits.h:492)
-==651638==    by 0x10A25F: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_put_node(std::_List_node<Pre>*) (stl_list.h:446)
-==651638==    by 0x10A184: std::__cxx11::list<Pre, std::allocator<Pre> >::_M_erase(std::_List_iterator<Pre>) (stl_list.h:1930)
-==651638==    by 0x109F91: std::__cxx11::list<Pre, std::allocator<Pre> >::pop_front() (stl_list.h:1198)
-==651638==    by 0x109943: main (trab3.cpp:93)
-==651638==  Block was alloc'd at
-==651638==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
-==651638==    by 0x10A7C5: __gnu_cxx::new_allocator<std::_List_node<Pre> >::allocate(unsigned long, void const*) (new_allocator.h:115)
-==651638==    by 0x10A60E: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::allocate(std::allocator<std::_List_node<Pre> >&, unsigned long) (alloc_traits.h:460)
-==651638==    by 0x10A4B0: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_get_node() (stl_list.h:442)
-==651638==    by 0x10A28E: std::_List_node<Pre>* std::__cxx11::list<Pre, std::allocator<Pre> >::_M_create_node<Pre const&>(Pre const&) (stl_list.h:634)
-==651638==    by 0x10A0B1: void std::__cxx11::list<Pre, std::allocator<Pre> >::_M_insert<Pre const&>(std::_List_iterator<Pre>, Pre const&) (stl_list.h:1911)
-==651638==    by 0x109EA7: std::__cxx11::list<Pre, std::allocator<Pre> >::push_back(Pre const&) (stl_list.h:1212)
-==651638==    by 0x1094A2: main (trab3.cpp:52)
-==651638== 
+==1049154== Invalid read of size 8
+==1049154==    at 0x4998E14: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1049154==    by 0x1098FB: main (trab3.cpp:87)
+==1049154==  Address 0x4d6af58 is 24 bytes inside a block of size 64 free'd
+==1049154==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
+==1049154==    by 0x10A6AF: __gnu_cxx::new_allocator<std::_List_node<Pre> >::deallocate(std::_List_node<Pre>*, unsigned long) (new_allocator.h:133)
+==1049154==    by 0x10A55B: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::deallocate(std::allocator<std::_List_node<Pre> >&, std::_List_node<Pre>*, unsigned long) (alloc_traits.h:492)
+==1049154==    by 0x10A32B: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_put_node(std::_List_node<Pre>*) (stl_list.h:446)
+==1049154==    by 0x10A250: std::__cxx11::list<Pre, std::allocator<Pre> >::_M_erase(std::_List_iterator<Pre>) (stl_list.h:1930)
+==1049154==    by 0x10A023: std::__cxx11::list<Pre, std::allocator<Pre> >::pop_front() (stl_list.h:1198)
+==1049154==    by 0x1098D7: main (trab3.cpp:86)
+==1049154==  Block was alloc'd at
+==1049154==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==1049154==    by 0x10A891: __gnu_cxx::new_allocator<std::_List_node<Pre> >::allocate(unsigned long, void const*) (new_allocator.h:115)
+==1049154==    by 0x10A6DA: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::allocate(std::allocator<std::_List_node<Pre> >&, unsigned long) (alloc_traits.h:460)
+==1049154==    by 0x10A57C: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_get_node() (stl_list.h:442)
+==1049154==    by 0x10A35A: std::_List_node<Pre>* std::__cxx11::list<Pre, std::allocator<Pre> >::_M_create_node<Pre const&>(Pre const&) (stl_list.h:634)
+==1049154==    by 0x10A17D: void std::__cxx11::list<Pre, std::allocator<Pre> >::_M_insert<Pre const&>(std::_List_iterator<Pre>, Pre const&) (stl_list.h:1911)
+==1049154==    by 0x109F39: std::__cxx11::list<Pre, std::allocator<Pre> >::push_back(Pre const&) (stl_list.h:1212)
+==1049154==    by 0x109436: main (trab3.cpp:48)
+==1049154== 
+==1049154== Invalid read of size 8
+==1049154==    at 0x4998E1B: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1049154==    by 0x1098FB: main (trab3.cpp:87)
+==1049154==  Address 0x4d6af50 is 16 bytes inside a block of size 64 free'd
+==1049154==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
+==1049154==    by 0x10A6AF: __gnu_cxx::new_allocator<std::_List_node<Pre> >::deallocate(std::_List_node<Pre>*, unsigned long) (new_allocator.h:133)
+==1049154==    by 0x10A55B: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::deallocate(std::allocator<std::_List_node<Pre> >&, std::_List_node<Pre>*, unsigned long) (alloc_traits.h:492)
+==1049154==    by 0x10A32B: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_put_node(std::_List_node<Pre>*) (stl_list.h:446)
+==1049154==    by 0x10A250: std::__cxx11::list<Pre, std::allocator<Pre> >::_M_erase(std::_List_iterator<Pre>) (stl_list.h:1930)
+==1049154==    by 0x10A023: std::__cxx11::list<Pre, std::allocator<Pre> >::pop_front() (stl_list.h:1198)
+==1049154==    by 0x1098D7: main (trab3.cpp:86)
+==1049154==  Block was alloc'd at
+==1049154==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==1049154==    by 0x10A891: __gnu_cxx::new_allocator<std::_List_node<Pre> >::allocate(unsigned long, void const*) (new_allocator.h:115)
+==1049154==    by 0x10A6DA: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::allocate(std::allocator<std::_List_node<Pre> >&, unsigned long) (alloc_traits.h:460)
+==1049154==    by 0x10A57C: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_get_node() (stl_list.h:442)
+==1049154==    by 0x10A35A: std::_List_node<Pre>* std::__cxx11::list<Pre, std::allocator<Pre> >::_M_create_node<Pre const&>(Pre const&) (stl_list.h:634)
+==1049154==    by 0x10A17D: void std::__cxx11::list<Pre, std::allocator<Pre> >::_M_insert<Pre const&>(std::_List_iterator<Pre>, Pre const&) (stl_list.h:1911)
+==1049154==    by 0x109F39: std::__cxx11::list<Pre, std::allocator<Pre> >::push_back(Pre const&) (stl_list.h:1212)
+==1049154==    by 0x109436: main (trab3.cpp:48)
+==1049154== 
+==1049154== Invalid read of size 1
+==1049154==    at 0x4998DA2: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==1049154==    by 0x1098FB: main (trab3.cpp:87)
+==1049154==  Address 0x4d6af60 is 32 bytes inside a block of size 64 free'd
+==1049154==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
+==1049154==    by 0x10A6AF: __gnu_cxx::new_allocator<std::_List_node<Pre> >::deallocate(std::_List_node<Pre>*, unsigned long) (new_allocator.h:133)
+==1049154==    by 0x10A55B: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::deallocate(std::allocator<std::_List_node<Pre> >&, std::_List_node<Pre>*, unsigned long) (alloc_traits.h:492)
+==1049154==    by 0x10A32B: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_put_node(std::_List_node<Pre>*) (stl_list.h:446)
+==1049154==    by 0x10A250: std::__cxx11::list<Pre, std::allocator<Pre> >::_M_erase(std::_List_iterator<Pre>) (stl_list.h:1930)
+==1049154==    by 0x10A023: std::__cxx11::list<Pre, std::allocator<Pre> >::pop_front() (stl_list.h:1198)
+==1049154==    by 0x1098D7: main (trab3.cpp:86)
+==1049154==  Block was alloc'd at
+==1049154==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==1049154==    by 0x10A891: __gnu_cxx::new_allocator<std::_List_node<Pre> >::allocate(unsigned long, void const*) (new_allocator.h:115)
+==1049154==    by 0x10A6DA: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::allocate(std::allocator<std::_List_node<Pre> >&, unsigned long) (alloc_traits.h:460)
+==1049154==    by 0x10A57C: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_get_node() (stl_list.h:442)
+==1049154==    by 0x10A35A: std::_List_node<Pre>* std::__cxx11::list<Pre, std::allocator<Pre> >::_M_create_node<Pre const&>(Pre const&) (stl_list.h:634)
+==1049154==    by 0x10A17D: void std::__cxx11::list<Pre, std::allocator<Pre> >::_M_insert<Pre const&>(std::_List_iterator<Pre>, Pre const&) (stl_list.h:1911)
+==1049154==    by 0x109F39: std::__cxx11::list<Pre, std::allocator<Pre> >::push_back(Pre const&) (stl_list.h:1212)
+==1049154==    by 0x109436: main (trab3.cpp:48)
+==1049154== 
+==1049154== Invalid read of size 4
+==1049154==    at 0x109918: main (trab3.cpp:87)
+==1049154==  Address 0x4d6af74 is 52 bytes inside a block of size 64 free'd
+==1049154==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
+==1049154==    by 0x10A6AF: __gnu_cxx::new_allocator<std::_List_node<Pre> >::deallocate(std::_List_node<Pre>*, unsigned long) (new_allocator.h:133)
+==1049154==    by 0x10A55B: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::deallocate(std::allocator<std::_List_node<Pre> >&, std::_List_node<Pre>*, unsigned long) (alloc_traits.h:492)
+==1049154==    by 0x10A32B: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_put_node(std::_List_node<Pre>*) (stl_list.h:446)
+==1049154==    by 0x10A250: std::__cxx11::list<Pre, std::allocator<Pre> >::_M_erase(std::_List_iterator<Pre>) (stl_list.h:1930)
+==1049154==    by 0x10A023: std::__cxx11::list<Pre, std::allocator<Pre> >::pop_front() (stl_list.h:1198)
+==1049154==    by 0x1098D7: main (trab3.cpp:86)
+==1049154==  Block was alloc'd at
+==1049154==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==1049154==    by 0x10A891: __gnu_cxx::new_allocator<std::_List_node<Pre> >::allocate(unsigned long, void const*) (new_allocator.h:115)
+==1049154==    by 0x10A6DA: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::allocate(std::allocator<std::_List_node<Pre> >&, unsigned long) (alloc_traits.h:460)
+==1049154==    by 0x10A57C: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_get_node() (stl_list.h:442)
+==1049154==    by 0x10A35A: std::_List_node<Pre>* std::__cxx11::list<Pre, std::allocator<Pre> >::_M_create_node<Pre const&>(Pre const&) (stl_list.h:634)
+==1049154==    by 0x10A17D: void std::__cxx11::list<Pre, std::allocator<Pre> >::_M_insert<Pre const&>(std::_List_iterator<Pre>, Pre const&) (stl_list.h:1911)
+==1049154==    by 0x109F39: std::__cxx11::list<Pre, std::allocator<Pre> >::push_back(Pre const&) (stl_list.h:1212)
+==1049154==    by 0x109436: main (trab3.cpp:48)
+==1049154== 
+==1049154== Invalid read of size 4
+==1049154==    at 0x109934: main (trab3.cpp:87)
+==1049154==  Address 0x4d6af78 is 56 bytes inside a block of size 64 free'd
+==1049154==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
+==1049154==    by 0x10A6AF: __gnu_cxx::new_allocator<std::_List_node<Pre> >::deallocate(std::_List_node<Pre>*, unsigned long) (new_allocator.h:133)
+==1049154==    by 0x10A55B: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::deallocate(std::allocator<std::_List_node<Pre> >&, std::_List_node<Pre>*, unsigned long) (alloc_traits.h:492)
+==1049154==    by 0x10A32B: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_put_node(std::_List_node<Pre>*) (stl_list.h:446)
+==1049154==    by 0x10A250: std::__cxx11::list<Pre, std::allocator<Pre> >::_M_erase(std::_List_iterator<Pre>) (stl_list.h:1930)
+==1049154==    by 0x10A023: std::__cxx11::list<Pre, std::allocator<Pre> >::pop_front() (stl_list.h:1198)
+==1049154==    by 0x1098D7: main (trab3.cpp:86)
+==1049154==  Block was alloc'd at
+==1049154==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==1049154==    by 0x10A891: __gnu_cxx::new_allocator<std::_List_node<Pre> >::allocate(unsigned long, void const*) (new_allocator.h:115)
+==1049154==    by 0x10A6DA: std::allocator_traits<std::allocator<std::_List_node<Pre> > >::allocate(std::allocator<std::_List_node<Pre> >&, unsigned long) (alloc_traits.h:460)
+==1049154==    by 0x10A57C: std::__cxx11::_List_base<Pre, std::allocator<Pre> >::_M_get_node() (stl_list.h:442)
+==1049154==    by 0x10A35A: std::_List_node<Pre>* std::__cxx11::list<Pre, std::allocator<Pre> >::_M_create_node<Pre const&>(Pre const&) (stl_list.h:634)
+==1049154==    by 0x10A17D: void std::__cxx11::list<Pre, std::allocator<Pre> >::_M_insert<Pre const&>(std::_List_iterator<Pre>, Pre const&) (stl_list.h:1911)
+==1049154==    by 0x109F39: std::__cxx11::list<Pre, std::allocator<Pre> >::push_back(Pre const&) (stl_list.h:1212)
+==1049154==    by 0x109436: main (trab3.cpp:48)
+==1049154== 

@@ -1,0 +1,5 @@
+calculadora.cpp: In instantiation of ‘void Calculadora<T>::formula(std::string) [with T = int; std::string = std::__cxx11::basic_string<char>]’:
+calculadora.cpp:209:19:   required from here
+calculadora.cpp:118:24: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  118 |         for(auto i=0; i<form.size(); i++)
+      |                       ~^~~~~~~~~~~~

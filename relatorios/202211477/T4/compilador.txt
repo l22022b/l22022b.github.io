@@ -1,4 +1,4 @@
-t4-jvrates.cpp:16:10: fatal error: catch2/catch.hpp: Arquivo ou diretório inexistente
-   16 | #include "catch2/catch.hpp"
-      |          ^~~~~~~~~~~~~~~~~~
-compilation terminated.
+t4-jvrates.cpp: In member function ‘std::string cel::processform(bool)’:
+t4-jvrates.cpp:329:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  329 |       for (int i = 1; i < formula.length(); i++) {
+      |                       ~~^~~~~~~~~~~~~~~~~~

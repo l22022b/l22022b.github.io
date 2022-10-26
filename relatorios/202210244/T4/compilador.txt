@@ -1,10 +1,18 @@
+calculadora.cpp: In instantiation of ‘void Calculadora<T>::formula(std::string) [with T = int; std::string = std::__cxx11::basic_string<char>]’:
+calculadora.cpp:211:19:   required from here
+calculadora.cpp:111:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  111 |         for(int i = 0; i < form.size(); i++){
+      |                        ~~^~~~~~~~~~~~~
 main.cpp: In member function ‘int Planilha::resolver(std::string, int)’:
-main.cpp:45:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
-   45 |             for(int i=0; i<c.formula.size(); i++){
-      |                          ~^~~~~~~~~~~~~~~~~
+main.cpp:45:28: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   45 |             for(auto i=0; i<c.formula.size(); i++){
+      |                           ~^~~~~~~~~~~~~~~~~
 In file included from main.cpp:4:
 calculadora.hpp: In instantiation of ‘void Calculadora<T>::formula(std::string) [with T = int; std::string = std::__cxx11::basic_string<char>]’:
 main.cpp:73:30:   required from here
-calculadora.hpp:113:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
-  113 |         for(int i = 0; i < form.size(); i++){
-      |                        ~~^~~~~~~~~~~~~
+calculadora.hpp:106:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  106 |         for(auto i = 0; i < form.size(); i++){
+      |                         ~~^~~~~~~~~~~~~
+/usr/bin/ld: /tmp/ccaUvKlP.o: na função "Calculadora<int>::cria()":
+/home/jvlima/UFSM/auto-l22022b/download/t4-Agentew04/main.cpp:85: múltiplas definições de "main"; /tmp/ccOhMIPQ.o:/home/jvlima/UFSM/auto-l22022b/download/t4-Agentew04/catch.hpp:17441: definido primeiro aqui
+collect2: error: ld returned 1 exit status

@@ -1,17 +1,9 @@
-trab4.cpp:16:0: style: The function 'cria' is never used. [unusedFunction]
+trab4.cpp:17:29: performance: Function parameter 'formula' should be passed by const reference. [passedByValue]
+    int resolve(std::string formula, std::string id){
+                            ^
+trab4.cpp:17:50: performance: Function parameter 'id' should be passed by const reference. [passedByValue]
+    int resolve(std::string formula, std::string id){
+                                                 ^
+trab4.cpp:17:0: style: The function 'resolve' is never used. [unusedFunction]
 
 ^
-trab4.cpp:31:0: style: The function 'destroi' is never used. [unusedFunction]
-
-^
-trab4.cpp:124:0: style: The function 'fim' is never used. [unusedFunction]
-
-^
-trab4.cpp:101:0: style: The function 'formula' is never used. [unusedFunction]
-
-^
-trab4.cpp:158:0: style: The function 'resultado' is never used. [unusedFunction]
-
-^
-nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
-
