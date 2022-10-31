@@ -1,6 +1,16 @@
+Valor: 2
+Valor: 2
 A1 : 3
 B1 : 2
-Valor: 1
-C1 : =A1+B1
+A1 : 3
+C1 : =2*2
+A2 : =A1+B1
+Valor: 3
+A1 : 3
 Valor: 2
-C1 : =A1+B1
+B2 : =A1+C1
+B1 : 2
+C1 : =2*2
+Valor: 1
+D2 : =B2*(B1+C1)+1
+C2 : =A2*3+A1/2

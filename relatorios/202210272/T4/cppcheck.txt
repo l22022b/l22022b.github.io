@@ -16,12 +16,12 @@ planilhas.cpp:31:51: note: Assuming that condition 'celula->formula[i]!='*'' is 
 planilhas.cpp:31:80: note: Condition 'celula->formula[i]!='/'' is always true
   celula->formula[i] != '-' || celula->formula[i] != '*' || celula->formula[i] != '/') {
                                                                                ^
-calculadora.hpp:80:22: style: Local variable 'op' shadows outer argument [shadowArgument]
+calculadora.hpp:81:22: style: Local variable 'op' shadows outer argument [shadowArgument]
                 char op = operadores.top();
                      ^
-calculadora.hpp:75:24: note: Shadowed declaration
+calculadora.hpp:76:24: note: Shadowed declaration
     void operador(char op){
                        ^
-calculadora.hpp:80:22: note: Shadow variable
+calculadora.hpp:81:22: note: Shadow variable
                 char op = operadores.top();
                      ^

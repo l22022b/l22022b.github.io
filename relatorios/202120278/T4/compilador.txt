@@ -1,18 +1,4 @@
-trab4.cpp: In function ‘int main()’:
-trab4.cpp:5:3: error: ‘cout’ was not declared in this scope; did you mean ‘std::cout’?
-    5 |   cout << "Olá, mundo!" << endl;
-      |   ^~~~
-      |   std::cout
-In file included from trab4.cpp:1:
-/usr/include/c++/10/iostream:61:18: note: ‘std::cout’ declared here
-   61 |   extern ostream cout;  /// Linked to standard output
-      |                  ^~~~
-trab4.cpp:5:29: error: ‘endl’ was not declared in this scope; did you mean ‘std::endl’?
-    5 |   cout << "Olá, mundo!" << endl;
-      |                            ^~~~
-      |                            std::endl
-In file included from /usr/include/c++/10/iostream:39,
-                 from trab4.cpp:1:
-/usr/include/c++/10/ostream:681:5: note: ‘std::endl’ declared here
-  681 |     endl(basic_ostream<_CharT, _Traits>& __os)
-      |     ^~~~
+trab4.cpp: In member function ‘void<unnamed struct>::formula(std::string)’:
+trab4.cpp:78:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   78 |     for (int i = 1; i < form.size(); i++)
+      |                     ~~^~~~~~~~~~~~~

@@ -1,0 +1,37 @@
+==32488== Use of uninitialised value of size 8
+==32488==    at 0x10BF8E: Calculadora<int>::calcula() (t4-gpcosta.cpp:34)
+==32488==    by 0x10B619: Calculadora<int>::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t4-gpcosta.cpp:98)
+==32488==    by 0x10A8DB: Planilha::calcula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t4-gpcosta.cpp:150)
+==32488==    by 0x10AD13: Planilha::troca_recursiva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:196)
+==32488==    by 0x10ACAD: Planilha::troca_recursiva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:193)
+==32488==    by 0x10ACAD: Planilha::troca_recursiva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:193)
+==32488==    by 0x10AE88: Planilha::resolve_planilha(std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:205)
+==32488==    by 0x10A45A: main (t4-gpcosta.cpp:226)
+==32488== 
+==32488== Invalid read of size 4
+==32488==    at 0x10BF8E: Calculadora<int>::calcula() (t4-gpcosta.cpp:34)
+==32488==    by 0x10B619: Calculadora<int>::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t4-gpcosta.cpp:98)
+==32488==    by 0x10A8DB: Planilha::calcula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t4-gpcosta.cpp:150)
+==32488==    by 0x10AD13: Planilha::troca_recursiva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:196)
+==32488==    by 0x10ACAD: Planilha::troca_recursiva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:193)
+==32488==    by 0x10ACAD: Planilha::troca_recursiva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:193)
+==32488==    by 0x10AE88: Planilha::resolve_planilha(std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:205)
+==32488==    by 0x10A45A: main (t4-gpcosta.cpp:226)
+==32488==  Address 0x1fc is not stack'd, malloc'd or (recently) free'd
+==32488== 
+==32488== 
+==32488== Process terminating with default action of signal 11 (SIGSEGV)
+==32488==  Access not within mapped region at address 0x1FC
+==32488==    at 0x10BF8E: Calculadora<int>::calcula() (t4-gpcosta.cpp:34)
+==32488==    by 0x10B619: Calculadora<int>::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t4-gpcosta.cpp:98)
+==32488==    by 0x10A8DB: Planilha::calcula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t4-gpcosta.cpp:150)
+==32488==    by 0x10AD13: Planilha::troca_recursiva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:196)
+==32488==    by 0x10ACAD: Planilha::troca_recursiva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:193)
+==32488==    by 0x10ACAD: Planilha::troca_recursiva(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:193)
+==32488==    by 0x10AE88: Planilha::resolve_planilha(std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Celula, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, Celula> > >*) (t4-gpcosta.cpp:205)
+==32488==    by 0x10A45A: main (t4-gpcosta.cpp:226)
+==32488==  If you believe this happened as a result of a stack
+==32488==  overflow in your program's main thread (unlikely but
+==32488==  possible), you can try to increase the size of the
+==32488==  main thread stack using the --main-stacksize= flag.
+==32488==  The main thread stack size used in this run was 8388608.

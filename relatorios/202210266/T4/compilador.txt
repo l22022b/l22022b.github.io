@@ -1,4 +1,38 @@
-trab4.cpp: In member function ‘int Planilha::resolve(std::string, std::string)’:
-trab4.cpp:20:5: warning: no return statement in function returning non-void [-Wreturn-type]
-   20 |     }
-      |     ^
+trab4.cpp: In member function ‘int Planilha::calculaValor(const string&, std::string)’:
+trab4.cpp:32:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   32 |         for(auto i = 0; i < formula.size(); i++){
+      |                         ~~^~~~~~~~~~~~~~~~
+trab4.cpp:34:55: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   34 |             if(formula[i] == ' ' || formula[i] >= '0' && formula[i] <= '9'){
+trab4.cpp:57:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   57 |         for(auto i = 0; i < formula.size(); i++){
+      |                         ~~^~~~~~~~~~~~~~~~
+trab4.cpp: In function ‘int main()’:
+trab4.cpp:113:57: error: no matching function for call to ‘Celula::Celula(<brace-enclosed initializer list>)’
+  113 |             p.celulas[id] = Celula{id, 0, false, formula};
+      |                                                         ^
+trab4.cpp:8:8: note: candidate: ‘Celula::Celula()’
+    8 | struct Celula{
+      |        ^~~~~~
+trab4.cpp:8:8: note:   candidate expects 0 arguments, 4 provided
+trab4.cpp:8:8: note: candidate: ‘Celula::Celula(const Celula&)’
+trab4.cpp:8:8: note:   candidate expects 1 argument, 4 provided
+trab4.cpp:8:8: note: candidate: ‘Celula::Celula(Celula&&)’
+trab4.cpp:8:8: note:   candidate expects 1 argument, 4 provided
+trab4.cpp:116:68: error: no matching function for call to ‘Celula::Celula(<brace-enclosed initializer list>)’
+  116 |             p.celulas[id] = Celula{id, std::stoi(formula), true, ""};
+      |                                                                    ^
+trab4.cpp:8:8: note: candidate: ‘Celula::Celula()’
+    8 | struct Celula{
+      |        ^~~~~~
+trab4.cpp:8:8: note:   candidate expects 0 arguments, 4 provided
+trab4.cpp:8:8: note: candidate: ‘Celula::Celula(const Celula&)’
+trab4.cpp:8:8: note:   candidate expects 1 argument, 4 provided
+trab4.cpp:8:8: note: candidate: ‘Celula::Celula(Celula&&)’
+trab4.cpp:8:8: note:   candidate expects 1 argument, 4 provided
+In file included from trab4.cpp:6:
+calculadora.hpp: In instantiation of ‘void Calculadora<T>::formula(std::string) [with T = int; std::string = std::__cxx11::basic_string<char>]’:
+trab4.cpp:90:29:   required from here
+calculadora.hpp:99:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   99 |         for(int i = 0; i < form.size(); i++){
+      |                        ~~^~~~~~~~~~~~~

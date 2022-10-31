@@ -1,0 +1,21 @@
+trab4.cpp:189:15: style: The scope of the variable 'vetor' can be reduced. [variableScope]
+        char* vetor;
+              ^
+trab4.cpp:27:17: style: Variable 'soma' is assigned a value that is never used. [unreadVariable]
+        int soma=0;
+                ^
+trab4.cpp:28:16: style: Variable 'sub' is assigned a value that is never used. [unreadVariable]
+        int sub=0;
+               ^
+trab4.cpp:183:27: style: Unused variable: cell [unusedVariable]
+   std::map<string, Cell> cell;
+                          ^
+trab4.cpp:170:0: style: The function 'fim' is never used. [unusedFunction]
+
+^
+trab4.cpp:71:0: style: The function 'operador' is never used. [unusedFunction]
+
+^
+trab4.cpp:66:0: style: The function 'operando' is never used. [unusedFunction]
+
+^
