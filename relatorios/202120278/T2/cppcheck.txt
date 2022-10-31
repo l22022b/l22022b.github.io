@@ -1,18 +1,18 @@
-trab2.cpp:14:15: style: Local variable 'i' shadows outer variable [shadowVariable]
+trab2.cpp:13:15: style: Local variable 'i' shadows outer variable [shadowVariable]
     for (auto i = 0; i < size + 1; i++)
               ^
 trab2.cpp:9:29: note: Shadowed declaration
     int contador = 0, size, i = 0;
                             ^
-trab2.cpp:14:15: note: Shadow variable
+trab2.cpp:13:15: note: Shadow variable
     for (auto i = 0; i < size + 1; i++)
               ^
-trab2.cpp:75:14: style: Local variable 'i' shadows outer variable [shadowVariable]
+trab2.cpp:80:14: style: Local variable 'i' shadows outer variable [shadowVariable]
     for (int i = 0; i < size + 1; i++)
              ^
 trab2.cpp:9:29: note: Shadowed declaration
     int contador = 0, size, i = 0;
                             ^
-trab2.cpp:75:14: note: Shadow variable
+trab2.cpp:80:14: note: Shadow variable
     for (int i = 0; i < size + 1; i++)
              ^

@@ -1,0 +1,13 @@
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  stof
+==45230== 144 bytes in 1 blocks are possibly lost in loss record 12 of 17
+==45230==    at 0x483877F: malloc (vg_replace_malloc.c:307)
+==45230==    by 0x49078DF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==45230==    by 0x490001D: std::__throw_invalid_argument(char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==45230==    by 0x10C2D0: float __gnu_cxx::__stoa<float, float, char>(float (*)(char const*, char**), char const*, char const*, unsigned long*) (string_conversions.h:83)
+==45230==    by 0x10BE19: std::__cxx11::stof(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long*) (basic_string.h:6583)
+==45230==    by 0x10A8B7: calcula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t4.cpp:67)
+==45230==    by 0x10A7D5: calcula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t4.cpp:58)
+==45230==    by 0x10B9AB: precedencia(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t4.cpp:279)
+==45230==    by 0x10BC4D: main (t4.cpp:289)
+==45230== 

@@ -1,19 +1,19 @@
-==32410== Use of uninitialised value of size 8
-==32410==    at 0x10A7D5: Calculadora::cria() (trab4.cpp:55)
-==32410==    by 0x10A4B1: main (trab4.cpp:202)
-==32410== 
-==32410== Invalid read of size 4
-==32410==    at 0x10A7D5: Calculadora::cria() (trab4.cpp:55)
-==32410==    by 0x10A4B1: main (trab4.cpp:202)
-==32410==  Address 0x1fc is not stack'd, malloc'd or (recently) free'd
-==32410== 
-==32410== 
-==32410== Process terminating with default action of signal 11 (SIGSEGV)
-==32410==  Access not within mapped region at address 0x1FC
-==32410==    at 0x10A7D5: Calculadora::cria() (trab4.cpp:55)
-==32410==    by 0x10A4B1: main (trab4.cpp:202)
-==32410==  If you believe this happened as a result of a stack
-==32410==  overflow in your program's main thread (unlikely but
-==32410==  possible), you can try to increase the size of the
-==32410==  main thread stack using the --main-stacksize= flag.
-==32410==  The main thread stack size used in this run was 8388608.
+==45612== Use of uninitialised value of size 8
+==45612==    at 0x10A7D5: Calculadora::cria() (trab4.cpp:55)
+==45612==    by 0x10A4B1: main (trab4.cpp:202)
+==45612== 
+==45612== Invalid read of size 4
+==45612==    at 0x10A7D5: Calculadora::cria() (trab4.cpp:55)
+==45612==    by 0x10A4B1: main (trab4.cpp:202)
+==45612==  Address 0x1fc is not stack'd, malloc'd or (recently) free'd
+==45612== 
+==45612== 
+==45612== Process terminating with default action of signal 11 (SIGSEGV)
+==45612==  Access not within mapped region at address 0x1FC
+==45612==    at 0x10A7D5: Calculadora::cria() (trab4.cpp:55)
+==45612==    by 0x10A4B1: main (trab4.cpp:202)
+==45612==  If you believe this happened as a result of a stack
+==45612==  overflow in your program's main thread (unlikely but
+==45612==  possible), you can try to increase the size of the
+==45612==  main thread stack using the --main-stacksize= flag.
+==45612==  The main thread stack size used in this run was 8388608.

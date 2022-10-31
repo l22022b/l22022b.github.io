@@ -1,7 +1,7 @@
-*** relatorios/202211477/T4/saida.txt	2022-10-31 14:17:44.833849357 -0300
---- ./entradas/t4/planilha.out	2022-10-31 14:14:18.088279062 -0300
+*** relatorios/202211477/T4/saida.txt	2022-10-31 15:45:43.787810857 -0300
+--- ./entradas/t4/planilha.out	2022-10-31 15:33:39.828318852 -0300
 ***************
-*** 1,9 ****
+*** 1,7 ****
   A1 3
   A2 5
 ! Erro de recusividade 
@@ -9,15 +9,10 @@
   B1 2
   B2 7
   C1 4
-  C2 17
-! D2 43
---- 1,8 ----
+--- 1,6 ----
   A1 3
   A2 5
 ! A3 60
   B1 2
   B2 7
   C1 4
-  C2 17
-! D2 43
-\ Nenhum caractere de nova linha no final do arquivo
