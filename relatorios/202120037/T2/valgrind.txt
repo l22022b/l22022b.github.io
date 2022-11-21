@@ -1,11 +1,11 @@
-==44888== Mismatched free() / delete / delete []
-==44888==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
-==44888==    by 0x1099C7: main (T2.cpp:75)
-==44888==  Address 0x4d6acc0 is 0 bytes inside a block of size 64 alloc'd
-==44888==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
-==44888==    by 0x109457: main (T2.cpp:21)
-==44888== 
-==44888== 64 bytes in 8 blocks are definitely lost in loss record 1 of 1
-==44888==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
-==44888==    by 0x109494: main (T2.cpp:23)
-==44888== 
+==856300== Mismatched free() / delete / delete []
+==856300==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
+==856300==    by 0x1099C7: main (T2.cpp:75)
+==856300==  Address 0x4d6acc0 is 0 bytes inside a block of size 64 alloc'd
+==856300==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==856300==    by 0x109457: main (T2.cpp:21)
+==856300== 
+==856300== 64 bytes in 8 blocks are definitely lost in loss record 1 of 1
+==856300==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==856300==    by 0x109494: main (T2.cpp:23)
+==856300== 

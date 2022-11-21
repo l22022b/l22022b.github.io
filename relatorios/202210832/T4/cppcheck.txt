@@ -1,0 +1,6 @@
+t4.cpp:55:14: style: The scope of the variable 'op' can be reduced. [variableScope]
+        char op;
+             ^
+t4.cpp:26:0: style: The function 'destroi' is never used. [unusedFunction]
+
+^

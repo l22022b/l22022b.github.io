@@ -1,18 +1,3 @@
-main.cpp:173:52: warning: Missing bounds check for extra iterator increment in loop. [StlMissingComparison]
-  for (auto it = cells.begin(); it != cells.end(); it++)
-                                                   ^
-main.cpp:176:7: note: Missing bounds check for extra iterator increment in loop.
-      it++;
-      ^
-main.cpp:173:52: note: Missing bounds check for extra iterator increment in loop.
-  for (auto it = cells.begin(); it != cells.end(); it++)
-                                                   ^
-main.cpp:184:52: warning: Missing bounds check for extra iterator increment in loop. [StlMissingComparison]
-  for (auto it = cells.begin(); it != cells.end(); it++)
-                                                   ^
-main.cpp:186:30: note: Missing bounds check for extra iterator increment in loop.
-    if (it == cells.begin()) it++;
-                             ^
-main.cpp:184:52: note: Missing bounds check for extra iterator increment in loop.
-  for (auto it = cells.begin(); it != cells.end(); it++)
-                                                   ^
+main.cpp:135:29: performance: Function parameter 'key' should be passed by const reference. [passedByValue]
+string calculateCell(string key, string equation)
+                            ^

@@ -1,15 +1,15 @@
-==44491== Conditional jump or move depends on uninitialised value(s)
-==44491==    at 0x10959D: main (trab2.cpp:63)
-==44491== 
-==44491== Conditional jump or move depends on uninitialised value(s)
-==44491==    at 0x1095D7: main (trab2.cpp:66)
-==44491== 
-==44491== Conditional jump or move depends on uninitialised value(s)
-==44491==    at 0x10960F: main (trab2.cpp:70)
-==44491== 
-==44491== Conditional jump or move depends on uninitialised value(s)
-==44491==    at 0x1093CA: main (trab2.cpp:30)
-==44491== 
-==44491== Conditional jump or move depends on uninitialised value(s)
-==44491==    at 0x109423: main (trab2.cpp:33)
-==44491== 
+==855941== Conditional jump or move depends on uninitialised value(s)
+==855941==    at 0x10959D: main (trab2.cpp:63)
+==855941== 
+==855941== Conditional jump or move depends on uninitialised value(s)
+==855941==    at 0x1095D7: main (trab2.cpp:66)
+==855941== 
+==855941== Conditional jump or move depends on uninitialised value(s)
+==855941==    at 0x10960F: main (trab2.cpp:70)
+==855941== 
+==855941== Conditional jump or move depends on uninitialised value(s)
+==855941==    at 0x1093CA: main (trab2.cpp:30)
+==855941== 
+==855941== Conditional jump or move depends on uninitialised value(s)
+==855941==    at 0x109423: main (trab2.cpp:33)
+==855941== 

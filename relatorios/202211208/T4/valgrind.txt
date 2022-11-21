@@ -1,0 +1,8 @@
+==856900== Conditional jump or move depends on uninitialised value(s)
+==856900==    at 0x4BCE5EF: ____strtol_l_internal (strtol_l.c:434)
+==856900==    by 0x10BA02: int __gnu_cxx::__stoa<long, int, char, int>(long (*)(char const*, char**, int), char const*, char const*, unsigned long*, int) (string_conversions.h:80)
+==856900==    by 0x10B69C: std::__cxx11::stoi(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long*, int) (basic_string.h:6557)
+==856900==    by 0x10AB57: empilha_e_calcula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t4-Eduardo-Bender.cpp:109)
+==856900==    by 0x10B263: calcula(Planilha*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (t4-Eduardo-Bender.cpp:159)
+==856900==    by 0x10B43A: main (t4-Eduardo-Bender.cpp:169)
+==856900== 

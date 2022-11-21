@@ -1,0 +1,4 @@
+arvore.cpp:3:10: fatal error: catche.hpp: Arquivo ou diretório inexistente
+    3 | #include "catche.hpp"
+      |          ^~~~~~~~~~~~
+compilation terminated.

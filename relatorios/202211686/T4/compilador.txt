@@ -1,4 +1,23 @@
-calculadora.cpp:6:10: fatal error: catch.hpp: Arquivo ou diretório inexistente
-    6 | #include "catch.hpp"
-      |          ^~~~~~~~~~~
-compilation terminated.
+planilha.cpp: In function ‘int main()’:
+planilha.cpp:96:81: error: no matching function for call to ‘Celula::Celula(<brace-enclosed initializer list>)’
+   96 |             planilha.celulas[local] = Celula{local, formula, celula.valor, false};
+      |                                                                                 ^
+planilha.cpp:8:8: note: candidate: ‘Celula::Celula()’
+    8 | struct Celula
+      |        ^~~~~~
+planilha.cpp:8:8: note:   candidate expects 0 arguments, 4 provided
+planilha.cpp:8:8: note: candidate: ‘Celula::Celula(const Celula&)’
+planilha.cpp:8:8: note:   candidate expects 1 argument, 4 provided
+planilha.cpp:8:8: note: candidate: ‘Celula::Celula(Celula&&)’
+planilha.cpp:8:8: note:   candidate expects 1 argument, 4 provided
+planilha.cpp:100:86: error: no matching function for call to ‘Celula::Celula(<brace-enclosed initializer list>)’
+  100 |             planilha.celulas[local] = Celula{local, formula, std::stoi(formula), true};
+      |                                                                                      ^
+planilha.cpp:8:8: note: candidate: ‘Celula::Celula()’
+    8 | struct Celula
+      |        ^~~~~~
+planilha.cpp:8:8: note:   candidate expects 0 arguments, 4 provided
+planilha.cpp:8:8: note: candidate: ‘Celula::Celula(const Celula&)’
+planilha.cpp:8:8: note:   candidate expects 1 argument, 4 provided
+planilha.cpp:8:8: note: candidate: ‘Celula::Celula(Celula&&)’
+planilha.cpp:8:8: note:   candidate expects 1 argument, 4 provided

@@ -1,0 +1,26 @@
+arvore.cpp: In instantiation of ‘void Arvore<T>::inicia(std::__cxx11::list<T>&) [with T = int]’:
+arvore.cpp:114:21:   required from here
+arvore.cpp:78:16: error: no matching function for call to ‘Arvore<int>::node::node(<brace-enclosed initializer list>)’
+   78 |         root = new node{entrada.front()};
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+arvore.cpp:22:10: note: candidate: ‘Arvore<int>::node::node()’
+   22 |   struct node {
+      |          ^~~~
+arvore.cpp:22:10: note:   candidate expects 0 arguments, 1 provided
+arvore.cpp:22:10: note: candidate: ‘constexpr Arvore<int>::node::node(const Arvore<int>::node&)’
+arvore.cpp:22:10: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type’ {aka ‘int’} to ‘const Arvore<int>::node&’
+arvore.cpp:22:10: note: candidate: ‘constexpr Arvore<int>::node::node(Arvore<int>::node&&)’
+arvore.cpp:22:10: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type’ {aka ‘int’} to ‘Arvore<int>::node&&’
+arvore.cpp: In instantiation of ‘void Arvore<T>::inicia(std::__cxx11::list<T>&) [with T = char]’:
+arvore.cpp:143:21:   required from here
+arvore.cpp:78:16: error: no matching function for call to ‘Arvore<char>::node::node(<brace-enclosed initializer list>)’
+   78 |         root = new node{entrada.front()};
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+arvore.cpp:22:10: note: candidate: ‘Arvore<char>::node::node()’
+   22 |   struct node {
+      |          ^~~~
+arvore.cpp:22:10: note:   candidate expects 0 arguments, 1 provided
+arvore.cpp:22:10: note: candidate: ‘constexpr Arvore<char>::node::node(const Arvore<char>::node&)’
+arvore.cpp:22:10: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type’ {aka ‘char’} to ‘const Arvore<char>::node&’
+arvore.cpp:22:10: note: candidate: ‘constexpr Arvore<char>::node::node(Arvore<char>::node&&)’
+arvore.cpp:22:10: note:   no known conversion for argument 1 from ‘__gnu_cxx::__alloc_traits<std::allocator<char>, char>::value_type’ {aka ‘char’} to ‘Arvore<char>::node&&’

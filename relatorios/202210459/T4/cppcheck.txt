@@ -1,0 +1,3 @@
+t4ehveroneze.cpp:15:0: style: Consider using std::any_of algorithm instead of a raw loop. [useStlAlgorithm]
+        if (pr.first == c) return true;
+^

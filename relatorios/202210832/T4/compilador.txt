@@ -1,0 +1,4 @@
+t4.cpp: In member function ‘int Ops::formula(std::string, std::map<std::__cxx11::basic_string<char>, int>)’:
+t4.cpp:93:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   93 |             while(i < form.length()){
+      |                   ~~^~~~~~~~~~~~~~~

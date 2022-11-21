@@ -1,0 +1,9 @@
+t4-Eduardo-Bender.cpp:101:12: style: Variable 'n1' is assigned a value that is never used. [unreadVariable]
+    int n1 = 0, n2 = 0, neg = 0, calculos = 0;
+           ^
+t4-Eduardo-Bender.cpp:101:20: style: Variable 'n2' is assigned a value that is never used. [unreadVariable]
+    int n1 = 0, n2 = 0, neg = 0, calculos = 0;
+                   ^
+t4-Eduardo-Bender.cpp:101:29: style: Variable 'neg' is assigned a value that is never used. [unreadVariable]
+    int n1 = 0, n2 = 0, neg = 0, calculos = 0;
+                            ^

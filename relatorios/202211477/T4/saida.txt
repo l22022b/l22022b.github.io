@@ -1,7 +1,6 @@
 A1 3
 A2 5
-Erro de recusividade 
-A3 1466873505
+A3 60
 B1 2
 B2 7
 C1 4
