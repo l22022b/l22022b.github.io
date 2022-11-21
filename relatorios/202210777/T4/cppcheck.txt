@@ -1,0 +1,21 @@
+TRABALHO4.cpp:70:42: error: Invalid isdigit() argument nr 1. A non-boolean value is required. [invalidFunctionArgBool]
+                else if(isdigit(*(i - 1) == 40))
+                                         ^
+TRABALHO4.cpp:183:20: style: The scope of the variable 'i' can be reduced. [variableScope]
+            size_t i = 0, comeco = 0;
+                   ^
+TRABALHO4.cpp:183:27: style: The scope of the variable 'comeco' can be reduced. [variableScope]
+            size_t i = 0, comeco = 0;
+                          ^
+TRABALHO4.cpp:40:14: style: The scope of the variable 'c' can be reduced. [variableScope]
+        char c;
+             ^
+TRABALHO4.cpp:42:66: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+        for (string::iterator i = form.begin(); i != form.end(); i++)
+                                                                 ^
+TRABALHO4.cpp:61:17: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+                i++;
+                ^
+TRABALHO4.cpp:16:0: style: The function 'destroi' is never used. [unusedFunction]
+
+^

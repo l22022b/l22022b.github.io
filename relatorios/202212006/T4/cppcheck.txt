@@ -1,0 +1,24 @@
+t4.cpp:208:13: style: The scope of the variable 'cont' can be reduced. [variableScope]
+        int cont=0;
+            ^
+t4.cpp:125:13: style: The scope of the variable 'cont' can be reduced. [variableScope]
+        int cont=0,sinal=1;
+            ^
+t4.cpp:126:16: style: The scope of the variable 'aux' can be reduced. [variableScope]
+        double aux=0;
+               ^
+t4.cpp:209:32: style: Checking if unsigned expression 'celulas.count(chave)' is less than zero. [unsignedLessThanZero]
+        if(celulas.count(chave)<=0) {cout<<"erro em alguma chave"; exit(0);}
+                               ^
+t4.cpp:14:24: performance: Function parameter 's' should be passed by const reference. [passedByValue]
+    T resultado(string s)
+                       ^
+t4.cpp:208:17: style: Variable 'cont' is assigned a value that is never used. [unreadVariable]
+        int cont=0;
+                ^
+t4.cpp:125:17: style: Variable 'cont' is assigned a value that is never used. [unreadVariable]
+        int cont=0,sinal=1;
+                ^
+t4.cpp:126:19: style: Variable 'aux' is assigned a value that is never used. [unreadVariable]
+        double aux=0;
+                  ^

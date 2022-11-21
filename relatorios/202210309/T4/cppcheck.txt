@@ -1,0 +1,27 @@
+t4-luissiqueri.cpp:234:20: style: The scope of the variable 'count' can be reduced. [variableScope]
+            size_t count{0}, init{0};
+                   ^
+t4-luissiqueri.cpp:234:30: style: The scope of the variable 'init' can be reduced. [variableScope]
+            size_t count{0}, init{0};
+                             ^
+t4-luissiqueri.cpp:128:11: style: Local variable 'res' shadows outer function [shadowFunction]
+        T res{0};
+          ^
+t4-luissiqueri.cpp:150:10: note: Shadowed declaration
+    void res()
+         ^
+t4-luissiqueri.cpp:128:11: note: Shadow variable
+        T res{0};
+          ^
+t4-luissiqueri.cpp:31:53: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+        for (ite i = form.begin(); i != form.end(); i++)
+                                                    ^
+t4-luissiqueri.cpp:69:21: performance: Prefer prefix ++/-- operators for non-primitive types. [postfixOperator]
+                    i++;
+                    ^
+t4-luissiqueri.cpp:15:0: style: The function 'cria' is never used. [unusedFunction]
+
+^
+t4-luissiqueri.cpp:179:0: style: The function 'fim' is never used. [unusedFunction]
+
+^

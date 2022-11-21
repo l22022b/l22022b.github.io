@@ -1,0 +1,12 @@
+calculadora.cpp:68:21: style: Local variable 'operandos' shadows outer variable [shadowVariable]
+        std::smatch operandos;
+                    ^
+calculadora.cpp:33:19: note: Shadowed declaration
+    std::stack<T> operandos;    // números, basicamente
+                  ^
+calculadora.cpp:68:21: note: Shadow variable
+        std::smatch operandos;
+                    ^
+calculadora.cpp:16:53: performance: Function parameter 'formula' should be passed by const reference. [passedByValue]
+    void adicionaCelula(std::string id, std::string formula) {
+                                                    ^

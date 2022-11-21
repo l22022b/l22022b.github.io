@@ -1,5 +1,5 @@
-==856272== 8 bytes in 1 blocks are definitely lost in loss record 1 of 1
-==856272==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
-==856272==    by 0x10927F: inicializa_matriz(int) (t2.cpp:14)
-==856272==    by 0x109552: main (t2.cpp:67)
-==856272== 
+==911252== 8 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==911252==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==911252==    by 0x10927F: inicializa_matriz(int) (t2.cpp:14)
+==911252==    by 0x109552: main (t2.cpp:67)
+==911252== 

@@ -1,0 +1,12 @@
+t4_francisco.cpp:44:17: style: The scope of the variable 'num' can be reduced. [variableScope]
+        int i=0,num,cont,j;
+                ^
+t4_francisco.cpp:44:21: style: The scope of the variable 'cont' can be reduced. [variableScope]
+        int i=0,num,cont,j;
+                    ^
+t4_francisco.cpp:218:23: style: Variable 'tam_string' is assigned a value that is never used. [unreadVariable]
+        int tam_string=0,inicio_string;
+                      ^
+t4_francisco.cpp:22:0: style: The function 'destroi' is never used. [unusedFunction]
+
+^

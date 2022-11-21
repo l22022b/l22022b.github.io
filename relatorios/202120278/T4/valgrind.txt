@@ -1,4 +1,4 @@
-==856871== 69 bytes in 9 blocks are definitely lost in loss record 1 of 1
-==856871==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
-==856871==    by 0x10A6DD: main (trab4.cpp:245)
-==856871== 
+==911869== 69 bytes in 9 blocks are definitely lost in loss record 1 of 1
+==911869==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==911869==    by 0x10A6DD: main (trab4.cpp:245)
+==911869== 

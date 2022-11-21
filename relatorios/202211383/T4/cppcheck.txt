@@ -1,0 +1,27 @@
+t4.cpp:50:13: style: The scope of the variable 'n3' can be reduced. [variableScope]
+        int n3;
+            ^
+t4.cpp:72:13: style: The scope of the variable 'n1' can be reduced. [variableScope]
+        int n1, n2;
+            ^
+t4.cpp:72:17: style: The scope of the variable 'n2' can be reduced. [variableScope]
+        int n1, n2;
+                ^
+t4.cpp:73:14: style: The scope of the variable 'op' can be reduced. [variableScope]
+        char op;
+             ^
+t4.cpp:97:13: style: The scope of the variable 'n' can be reduced. [variableScope]
+        int n;
+            ^
+t4.cpp:141:47: warning: Either the condition 'operadores.empty()' is redundant or expression 'operadores.top()' cause access out of bounds. [containerOutOfBounds]
+                    tratamentos(operadores.top());
+                                              ^
+t4.cpp:142:41: note: Assuming that condition 'operadores.empty()' is not redundant
+                    if(!operadores.empty())
+                                        ^
+t4.cpp:141:47: note: Access out of bounds
+                    tratamentos(operadores.top());
+                                              ^
+t4.cpp:226:17: style: Variable 'tam' is assigned a value that is never used. [unreadVariable]
+        int tam =0, inicio_s;
+                ^

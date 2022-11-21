@@ -55,6 +55,3 @@ catch.hpp:7784:20: note: Shadowed declaration
 catch.hpp:7848:24: note: Shadow variable
                 double outlier_variance = Detail::outlier_variance(mean_estimate, stddev_estimate, n);
                        ^
-t5-luissiqueri.cpp:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 107 configurations. Use --force to check all configurations. [toomanyconfigs]
-
-^

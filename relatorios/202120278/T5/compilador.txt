@@ -1,104 +1,104 @@
-arvore.cpp:27:15: error: ‘list’ has not been declared
-   27 |   void inicia(list<T>&entrada)
+arvore.cpp:23:15: error: ‘list’ has not been declared
+   23 |   void inicia(list<T>&entrada)
       |               ^~~~
-arvore.cpp:27:19: error: expected ‘,’ or ‘...’ before ‘<’ token
-   27 |   void inicia(list<T>&entrada)
+arvore.cpp:23:19: error: expected ‘,’ or ‘...’ before ‘<’ token
+   23 |   void inicia(list<T>&entrada)
       |                   ^
-arvore.cpp:59:17: error: ‘list’ has not been declared
-   59 |   bool posOrdem(list<T>& saida)
+arvore.cpp:56:17: error: ‘list’ has not been declared
+   56 |   bool posOrdem(list<T>& saida)
       |                 ^~~~
-arvore.cpp:59:21: error: expected ‘,’ or ‘...’ before ‘<’ token
-   59 |   bool posOrdem(list<T>& saida)
+arvore.cpp:56:21: error: expected ‘,’ or ‘...’ before ‘<’ token
+   56 |   bool posOrdem(list<T>& saida)
       |                     ^
 arvore.cpp: In member function ‘void Arvore<T>::inicia(int)’:
-arvore.cpp:29:14: error: ‘entrada’ was not declared in this scope
-   29 |     auto it2=entrada.begin();
+arvore.cpp:25:14: error: ‘entrada’ was not declared in this scope
+   25 |     auto it2=entrada.begin();
       |              ^~~~~~~
 arvore.cpp: In member function ‘bool Arvore<T>::posOrdem(int)’:
-arvore.cpp:62:26: error: ‘saida’ was not declared in this scope
-   62 |             esq->emOrdem(saida);
-      |                          ^~~~~
-arvore.cpp:65:26: error: ‘saida’ was not declared in this scope
-   65 |             dir->emOrdem(saida);
-      |                          ^~~~~
-arvore.cpp:67:9: error: ‘saida’ was not declared in this scope
-   67 |         saida.push_back(dado);
-      |         ^~~~~
+arvore.cpp:59:21: error: ‘saida’ was not declared in this scope
+   59 |        esq->emOrdem(saida);
+      |                     ^~~~~
+arvore.cpp:62:21: error: ‘saida’ was not declared in this scope
+   62 |        dir->emOrdem(saida);
+      |                     ^~~~~
+arvore.cpp:64:5: error: ‘saida’ was not declared in this scope
+   64 |     saida.push_back(dado);
+      |     ^~~~~
 arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_0()’:
-arvore.cpp:97:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-   97 |     a.inicia(entrada);
+arvore.cpp:95:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
+   95 |     a.inicia(entrada);
       |              ^~~~~~~
       |              |
       |              std::__cxx11::list<int>
-arvore.cpp:27:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
-   27 |   void inicia(list<T>&entrada)
+arvore.cpp:23:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
+   23 |   void inicia(list<T>&entrada)
       |               ^~~~
 arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_2()’:
-arvore.cpp:105:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-  105 |     a.inicia(entrada);
+arvore.cpp:103:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
+  103 |     a.inicia(entrada);
       |              ^~~~~~~
       |              |
       |              std::__cxx11::list<int>
-arvore.cpp:27:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
-   27 |   void inicia(list<T>&entrada)
+arvore.cpp:23:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
+   23 |   void inicia(list<T>&entrada)
       |               ^~~~
 arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_4()’:
-arvore.cpp:115:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-  115 |     a.inicia(entrada);
+arvore.cpp:113:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
+  113 |     a.inicia(entrada);
       |              ^~~~~~~
       |              |
       |              std::__cxx11::list<int>
-arvore.cpp:27:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
-   27 |   void inicia(list<T>&entrada)
+arvore.cpp:23:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
+   23 |   void inicia(list<T>&entrada)
       |               ^~~~
-arvore.cpp:116:16: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-  116 |     a.posOrdem(saida);
+arvore.cpp:114:16: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
+  114 |     a.posOrdem(saida);
       |                ^~~~~
       |                |
       |                std::__cxx11::list<int>
-arvore.cpp:59:17: note:   initializing argument 1 of ‘bool Arvore<T>::posOrdem(int) [with T = int]’
-   59 |   bool posOrdem(list<T>& saida)
+arvore.cpp:56:17: note:   initializing argument 1 of ‘bool Arvore<T>::posOrdem(int) [with T = int]’
+   56 |   bool posOrdem(list<T>& saida)
       |                 ^~~~
 arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_6()’:
-arvore.cpp:126:14: error: cannot convert ‘std::__cxx11::list<char>’ to ‘int’
-  126 |     a.inicia(entrada);
+arvore.cpp:124:14: error: cannot convert ‘std::__cxx11::list<char>’ to ‘int’
+  124 |     a.inicia(entrada);
       |              ^~~~~~~
       |              |
       |              std::__cxx11::list<char>
-arvore.cpp:27:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = char]’
-   27 |   void inicia(list<T>&entrada)
+arvore.cpp:23:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = char]’
+   23 |   void inicia(list<T>&entrada)
       |               ^~~~
-arvore.cpp:127:16: error: cannot convert ‘std::__cxx11::list<char>’ to ‘int’
-  127 |     a.posOrdem(saida);
+arvore.cpp:125:16: error: cannot convert ‘std::__cxx11::list<char>’ to ‘int’
+  125 |     a.posOrdem(saida);
       |                ^~~~~
       |                |
       |                std::__cxx11::list<char>
-arvore.cpp:59:17: note:   initializing argument 1 of ‘bool Arvore<T>::posOrdem(int) [with T = char]’
-   59 |   bool posOrdem(list<T>& saida)
+arvore.cpp:56:17: note:   initializing argument 1 of ‘bool Arvore<T>::posOrdem(int) [with T = char]’
+   56 |   bool posOrdem(list<T>& saida)
       |                 ^~~~
 arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_8()’:
-arvore.cpp:137:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-  137 |     a.inicia(entrada);
+arvore.cpp:135:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
+  135 |     a.inicia(entrada);
       |              ^~~~~~~
       |              |
       |              std::__cxx11::list<int>
-arvore.cpp:27:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
-   27 |   void inicia(list<T>&entrada)
+arvore.cpp:23:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
+   23 |   void inicia(list<T>&entrada)
       |               ^~~~
-arvore.cpp:138:16: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-  138 |     a.posOrdem(saida);
+arvore.cpp:136:16: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
+  136 |     a.posOrdem(saida);
       |                ^~~~~
       |                |
       |                std::__cxx11::list<int>
-arvore.cpp:59:17: note:   initializing argument 1 of ‘bool Arvore<T>::posOrdem(int) [with T = int]’
-   59 |   bool posOrdem(list<T>& saida)
+arvore.cpp:56:17: note:   initializing argument 1 of ‘bool Arvore<T>::posOrdem(int) [with T = int]’
+   56 |   bool posOrdem(list<T>& saida)
       |                 ^~~~
 arvore.cpp: In instantiation of ‘bool Arvore<T>::vazio() [with T = int]’:
-arvore.cpp:98:5:   required from here
-arvore.cpp:73:16: warning: NULL used in arithmetic [-Wpointer-arith]
-   73 |        if(dado == NULL)
-      |                ^
+arvore.cpp:96:5:   required from here
+arvore.cpp:71:13: warning: NULL used in arithmetic [-Wpointer-arith]
+   71 |     if(dado == NULL)
+      |             ^
 arvore.cpp: In member function ‘bool Arvore<T>::vazio() [with T = int]’:
-arvore.cpp:75:3: warning: control reaches end of non-void function [-Wreturn-type]
-   75 |   }
+arvore.cpp:73:3: warning: control reaches end of non-void function [-Wreturn-type]
+   73 |   }
       |   ^
