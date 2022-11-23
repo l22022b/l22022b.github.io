@@ -1,24 +1,9 @@
-In file included from arvore.cpp:3:
-arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_0()’:
-arvore.cpp:97:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
-   97 |     REQUIRE(a.vazio() == true);
-      |               ^~~~~
-In file included from arvore.cpp:3:
-arvore.cpp:97:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
-   97 |     REQUIRE(a.vazio() == true);
-      |               ^~~~~
-arvore.cpp:97:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
-   97 |     REQUIRE(a.vazio() == true);
-      |               ^~~~~
-In file included from arvore.cpp:3:
-arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_2()’:
-arvore.cpp:105:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
-  105 |     REQUIRE(a.vazio() == false);
-      |               ^~~~~
-In file included from arvore.cpp:3:
-arvore.cpp:105:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
-  105 |     REQUIRE(a.vazio() == false);
-      |               ^~~~~
-arvore.cpp:105:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
-  105 |     REQUIRE(a.vazio() == false);
-      |               ^~~~~
+arvore.cpp: In instantiation of ‘bool Arvore<T>::vazio() [with T = int]’:
+arvore.cpp:104:5:   required from here
+arvore.cpp:74:13: warning: NULL used in arithmetic [-Wpointer-arith]
+   74 |     if(dado == NULL)
+      |             ^
+arvore.cpp: In instantiation of ‘bool Arvore<T>::vazio() [with T = char]’:
+arvore.cpp:81:9:   required from ‘void Arvore<T>::destroi() [with T = char]’
+arvore.cpp:135:15:   required from here
+arvore.cpp:74:13: warning: NULL used in arithmetic [-Wpointer-arith]

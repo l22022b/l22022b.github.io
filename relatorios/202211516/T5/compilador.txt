@@ -1,6 +1,6 @@
 arvore.cpp: In instantiation of ‘void Arvore<T>::insere(T) [with T = int]’:
-arvore.cpp:56:10:   required from ‘void Arvore<T>::inicia(std::__cxx11::list<T>&) [with T = int]’
-arvore.cpp:110:21:   required from here
+arvore.cpp:58:10:   required from ‘void Arvore<T>::inicia(std::__cxx11::list<T>&) [with T = int]’
+arvore.cpp:112:21:   required from here
 arvore.cpp:31:21: error: no matching function for call to ‘Arvore<int>::Arvore(<brace-enclosed initializer list>)’
    31 |         this->esq = new Arvore<T>{i};
       |                     ^~~~~~~~~~~~~~~~
@@ -12,8 +12,8 @@ arvore.cpp:20:8: note: candidate: ‘constexpr Arvore<int>::Arvore(const Arvore<
 arvore.cpp:20:8: note:   no known conversion for argument 1 from ‘int’ to ‘const Arvore<int>&’
 arvore.cpp:20:8: note: candidate: ‘constexpr Arvore<int>::Arvore(Arvore<int>&&)’
 arvore.cpp:20:8: note:   no known conversion for argument 1 from ‘int’ to ‘Arvore<int>&&’
-arvore.cpp:39:21: error: no matching function for call to ‘Arvore<int>::Arvore(<brace-enclosed initializer list>)’
-   39 |         this->dir = new Arvore<T>{i};
+arvore.cpp:40:21: error: no matching function for call to ‘Arvore<int>::Arvore(<brace-enclosed initializer list>)’
+   40 |         this->dir = new Arvore<T>{i};
       |                     ^~~~~~~~~~~~~~~~
 arvore.cpp:20:8: note: candidate: ‘Arvore<int>::Arvore()’
    20 | struct Arvore {
@@ -24,8 +24,8 @@ arvore.cpp:20:8: note:   no known conversion for argument 1 from ‘int’ to �
 arvore.cpp:20:8: note: candidate: ‘constexpr Arvore<int>::Arvore(Arvore<int>&&)’
 arvore.cpp:20:8: note:   no known conversion for argument 1 from ‘int’ to ‘Arvore<int>&&’
 arvore.cpp: In instantiation of ‘void Arvore<T>::insere(T) [with T = char]’:
-arvore.cpp:56:10:   required from ‘void Arvore<T>::inicia(std::__cxx11::list<T>&) [with T = char]’
-arvore.cpp:139:21:   required from here
+arvore.cpp:58:10:   required from ‘void Arvore<T>::inicia(std::__cxx11::list<T>&) [with T = char]’
+arvore.cpp:141:21:   required from here
 arvore.cpp:31:21: error: no matching function for call to ‘Arvore<char>::Arvore(<brace-enclosed initializer list>)’
    31 |         this->esq = new Arvore<T>{i};
       |                     ^~~~~~~~~~~~~~~~
@@ -37,8 +37,8 @@ arvore.cpp:20:8: note: candidate: ‘constexpr Arvore<char>::Arvore(const Arvore
 arvore.cpp:20:8: note:   no known conversion for argument 1 from ‘char’ to ‘const Arvore<char>&’
 arvore.cpp:20:8: note: candidate: ‘constexpr Arvore<char>::Arvore(Arvore<char>&&)’
 arvore.cpp:20:8: note:   no known conversion for argument 1 from ‘char’ to ‘Arvore<char>&&’
-arvore.cpp:39:21: error: no matching function for call to ‘Arvore<char>::Arvore(<brace-enclosed initializer list>)’
-   39 |         this->dir = new Arvore<T>{i};
+arvore.cpp:40:21: error: no matching function for call to ‘Arvore<char>::Arvore(<brace-enclosed initializer list>)’
+   40 |         this->dir = new Arvore<T>{i};
       |                     ^~~~~~~~~~~~~~~~
 arvore.cpp:20:8: note: candidate: ‘Arvore<char>::Arvore()’
    20 | struct Arvore {
