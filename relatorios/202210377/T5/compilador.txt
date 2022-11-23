@@ -1,0 +1,4 @@
+arvore.cpp: In member function ‘bool Arvore<T>::posOrdem(std::__cxx11::list<T>&)’:
+arvore.cpp:65:3: warning: no return statement in function returning non-void [-Wreturn-type]
+   65 |   }
+      |   ^

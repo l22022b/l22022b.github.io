@@ -1,4 +1,4 @@
-arvore.cpp:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 107 configurations. Use --force to check all configurations. [toomanyconfigs]
+t5-AntonioDallAgnol.cpp:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 107 configurations. Use --force to check all configurations. [toomanyconfigs]
 
 ^
 catch.hpp:2703:0: error: failed to expand 'REQUIRE', Invalid ## usage when expanding 'INTERNAL_CATCH_TEST'. [preprocessorErrorDirective]

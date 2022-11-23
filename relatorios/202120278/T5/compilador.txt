@@ -1,104 +1,24 @@
-arvore.cpp:23:15: error: ‘list’ has not been declared
-   23 |   void inicia(list<T>&entrada)
-      |               ^~~~
-arvore.cpp:23:19: error: expected ‘,’ or ‘...’ before ‘<’ token
-   23 |   void inicia(list<T>&entrada)
-      |                   ^
-arvore.cpp:56:17: error: ‘list’ has not been declared
-   56 |   bool posOrdem(list<T>& saida)
-      |                 ^~~~
-arvore.cpp:56:21: error: expected ‘,’ or ‘...’ before ‘<’ token
-   56 |   bool posOrdem(list<T>& saida)
-      |                     ^
-arvore.cpp: In member function ‘void Arvore<T>::inicia(int)’:
-arvore.cpp:25:14: error: ‘entrada’ was not declared in this scope
-   25 |     auto it2=entrada.begin();
-      |              ^~~~~~~
-arvore.cpp: In member function ‘bool Arvore<T>::posOrdem(int)’:
-arvore.cpp:59:21: error: ‘saida’ was not declared in this scope
-   59 |        esq->emOrdem(saida);
-      |                     ^~~~~
-arvore.cpp:62:21: error: ‘saida’ was not declared in this scope
-   62 |        dir->emOrdem(saida);
-      |                     ^~~~~
-arvore.cpp:64:5: error: ‘saida’ was not declared in this scope
-   64 |     saida.push_back(dado);
-      |     ^~~~~
+In file included from arvore.cpp:3:
 arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_0()’:
-arvore.cpp:95:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-   95 |     a.inicia(entrada);
-      |              ^~~~~~~
-      |              |
-      |              std::__cxx11::list<int>
-arvore.cpp:23:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
-   23 |   void inicia(list<T>&entrada)
-      |               ^~~~
+arvore.cpp:97:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
+   97 |     REQUIRE(a.vazio() == true);
+      |               ^~~~~
+In file included from arvore.cpp:3:
+arvore.cpp:97:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
+   97 |     REQUIRE(a.vazio() == true);
+      |               ^~~~~
+arvore.cpp:97:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
+   97 |     REQUIRE(a.vazio() == true);
+      |               ^~~~~
+In file included from arvore.cpp:3:
 arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_2()’:
-arvore.cpp:103:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-  103 |     a.inicia(entrada);
-      |              ^~~~~~~
-      |              |
-      |              std::__cxx11::list<int>
-arvore.cpp:23:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
-   23 |   void inicia(list<T>&entrada)
-      |               ^~~~
-arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_4()’:
-arvore.cpp:113:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-  113 |     a.inicia(entrada);
-      |              ^~~~~~~
-      |              |
-      |              std::__cxx11::list<int>
-arvore.cpp:23:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
-   23 |   void inicia(list<T>&entrada)
-      |               ^~~~
-arvore.cpp:114:16: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-  114 |     a.posOrdem(saida);
-      |                ^~~~~
-      |                |
-      |                std::__cxx11::list<int>
-arvore.cpp:56:17: note:   initializing argument 1 of ‘bool Arvore<T>::posOrdem(int) [with T = int]’
-   56 |   bool posOrdem(list<T>& saida)
-      |                 ^~~~
-arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_6()’:
-arvore.cpp:124:14: error: cannot convert ‘std::__cxx11::list<char>’ to ‘int’
-  124 |     a.inicia(entrada);
-      |              ^~~~~~~
-      |              |
-      |              std::__cxx11::list<char>
-arvore.cpp:23:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = char]’
-   23 |   void inicia(list<T>&entrada)
-      |               ^~~~
-arvore.cpp:125:16: error: cannot convert ‘std::__cxx11::list<char>’ to ‘int’
-  125 |     a.posOrdem(saida);
-      |                ^~~~~
-      |                |
-      |                std::__cxx11::list<char>
-arvore.cpp:56:17: note:   initializing argument 1 of ‘bool Arvore<T>::posOrdem(int) [with T = char]’
-   56 |   bool posOrdem(list<T>& saida)
-      |                 ^~~~
-arvore.cpp: In function ‘void C_A_T_C_H_T_E_S_T_8()’:
-arvore.cpp:135:14: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-  135 |     a.inicia(entrada);
-      |              ^~~~~~~
-      |              |
-      |              std::__cxx11::list<int>
-arvore.cpp:23:15: note:   initializing argument 1 of ‘void Arvore<T>::inicia(int) [with T = int]’
-   23 |   void inicia(list<T>&entrada)
-      |               ^~~~
-arvore.cpp:136:16: error: cannot convert ‘std::__cxx11::list<int>’ to ‘int’
-  136 |     a.posOrdem(saida);
-      |                ^~~~~
-      |                |
-      |                std::__cxx11::list<int>
-arvore.cpp:56:17: note:   initializing argument 1 of ‘bool Arvore<T>::posOrdem(int) [with T = int]’
-   56 |   bool posOrdem(list<T>& saida)
-      |                 ^~~~
-arvore.cpp: In instantiation of ‘bool Arvore<T>::vazio() [with T = int]’:
-arvore.cpp:96:5:   required from here
-arvore.cpp:71:13: warning: NULL used in arithmetic [-Wpointer-arith]
-   71 |     if(dado == NULL)
-      |             ^
-arvore.cpp: In member function ‘bool Arvore<T>::vazio() [with T = int]’:
-arvore.cpp:73:3: warning: control reaches end of non-void function [-Wreturn-type]
-   73 |   }
-      |   ^
+arvore.cpp:105:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
+  105 |     REQUIRE(a.vazio() == false);
+      |               ^~~~~
+In file included from arvore.cpp:3:
+arvore.cpp:105:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
+  105 |     REQUIRE(a.vazio() == false);
+      |               ^~~~~
+arvore.cpp:105:15: error: ‘struct Arvore<int>’ has no member named ‘vazio’
+  105 |     REQUIRE(a.vazio() == false);
+      |               ^~~~~
