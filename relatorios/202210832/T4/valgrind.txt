@@ -1,24 +1,24 @@
-==1431087== Conditional jump or move depends on uninitialised value(s)
-==1431087==    at 0x10AEDE: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
-==1431087==    by 0x10A6E0: main (t4.cpp:164)
-==1431087== 
-==1431087== Conditional jump or move depends on uninitialised value(s)
-==1431087==    at 0x10AEFE: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
-==1431087==    by 0x10A6E0: main (t4.cpp:164)
-==1431087== 
-==1431087== Conditional jump or move depends on uninitialised value(s)
-==1431087==    at 0x10AF1A: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
-==1431087==    by 0x10A6E0: main (t4.cpp:164)
-==1431087== 
-==1431087== Conditional jump or move depends on uninitialised value(s)
-==1431087==    at 0x10AF36: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
-==1431087==    by 0x10A6E0: main (t4.cpp:164)
-==1431087== 
-==1431087== Conditional jump or move depends on uninitialised value(s)
-==1431087==    at 0x10AF52: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
-==1431087==    by 0x10A6E0: main (t4.cpp:164)
-==1431087== 
-==1431087== Conditional jump or move depends on uninitialised value(s)
-==1431087==    at 0x10AF6E: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
-==1431087==    by 0x10A6E0: main (t4.cpp:164)
-==1431087== 
+==1441119== Conditional jump or move depends on uninitialised value(s)
+==1441119==    at 0x10AEDE: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
+==1441119==    by 0x10A6E0: main (t4.cpp:164)
+==1441119== 
+==1441119== Conditional jump or move depends on uninitialised value(s)
+==1441119==    at 0x10AEFE: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
+==1441119==    by 0x10A6E0: main (t4.cpp:164)
+==1441119== 
+==1441119== Conditional jump or move depends on uninitialised value(s)
+==1441119==    at 0x10AF1A: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
+==1441119==    by 0x10A6E0: main (t4.cpp:164)
+==1441119== 
+==1441119== Conditional jump or move depends on uninitialised value(s)
+==1441119==    at 0x10AF36: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
+==1441119==    by 0x10A6E0: main (t4.cpp:164)
+==1441119== 
+==1441119== Conditional jump or move depends on uninitialised value(s)
+==1441119==    at 0x10AF52: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
+==1441119==    by 0x10A6E0: main (t4.cpp:164)
+==1441119== 
+==1441119== Conditional jump or move depends on uninitialised value(s)
+==1441119==    at 0x10AF6E: Ops::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >) (t4.cpp:100)
+==1441119==    by 0x10A6E0: main (t4.cpp:164)
+==1441119== 
