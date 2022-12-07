@@ -1,25 +1,25 @@
-==911523== Use of uninitialised value of size 8
-==911523==    at 0x10C168: Calculadora<int>::operador(char) (T_IV.cpp:111)
-==911523==    by 0x10B8DF: Calculadora<int>::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (T_IV.cpp:151)
-==911523==    by 0x10B000: Planilha::resolve() (T_IV.cpp:305)
-==911523==    by 0x10A54B: main (T_IV.cpp:337)
-==911523== 
-==911523== Invalid read of size 1
-==911523==    at 0x10C168: Calculadora<int>::operador(char) (T_IV.cpp:111)
-==911523==    by 0x10B8DF: Calculadora<int>::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (T_IV.cpp:151)
-==911523==    by 0x10B000: Planilha::resolve() (T_IV.cpp:305)
-==911523==    by 0x10A54B: main (T_IV.cpp:337)
-==911523==  Address 0x1ff is not stack'd, malloc'd or (recently) free'd
-==911523== 
-==911523== 
-==911523== Process terminating with default action of signal 11 (SIGSEGV)
-==911523==  Access not within mapped region at address 0x1FF
-==911523==    at 0x10C168: Calculadora<int>::operador(char) (T_IV.cpp:111)
-==911523==    by 0x10B8DF: Calculadora<int>::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (T_IV.cpp:151)
-==911523==    by 0x10B000: Planilha::resolve() (T_IV.cpp:305)
-==911523==    by 0x10A54B: main (T_IV.cpp:337)
-==911523==  If you believe this happened as a result of a stack
-==911523==  overflow in your program's main thread (unlikely but
-==911523==  possible), you can try to increase the size of the
-==911523==  main thread stack using the --main-stacksize= flag.
-==911523==  The main thread stack size used in this run was 8388608.
+==1430871== Use of uninitialised value of size 8
+==1430871==    at 0x10C168: Calculadora<int>::operador(char) (T_IV.cpp:111)
+==1430871==    by 0x10B8DF: Calculadora<int>::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (T_IV.cpp:151)
+==1430871==    by 0x10B000: Planilha::resolve() (T_IV.cpp:305)
+==1430871==    by 0x10A54B: main (T_IV.cpp:337)
+==1430871== 
+==1430871== Invalid read of size 1
+==1430871==    at 0x10C168: Calculadora<int>::operador(char) (T_IV.cpp:111)
+==1430871==    by 0x10B8DF: Calculadora<int>::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (T_IV.cpp:151)
+==1430871==    by 0x10B000: Planilha::resolve() (T_IV.cpp:305)
+==1430871==    by 0x10A54B: main (T_IV.cpp:337)
+==1430871==  Address 0x1ff is not stack'd, malloc'd or (recently) free'd
+==1430871== 
+==1430871== 
+==1430871== Process terminating with default action of signal 11 (SIGSEGV)
+==1430871==  Access not within mapped region at address 0x1FF
+==1430871==    at 0x10C168: Calculadora<int>::operador(char) (T_IV.cpp:111)
+==1430871==    by 0x10B8DF: Calculadora<int>::formula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (T_IV.cpp:151)
+==1430871==    by 0x10B000: Planilha::resolve() (T_IV.cpp:305)
+==1430871==    by 0x10A54B: main (T_IV.cpp:337)
+==1430871==  If you believe this happened as a result of a stack
+==1430871==  overflow in your program's main thread (unlikely but
+==1430871==  possible), you can try to increase the size of the
+==1430871==  main thread stack using the --main-stacksize= flag.
+==1430871==  The main thread stack size used in this run was 8388608.
