@@ -1,9 +1,23 @@
+==2916895== Mismatched free() / delete / delete []
+==2916895==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
+==2916895==    by 0x10951C: main (t2-Andriel.cpp:45)
+==2916895==  Address 0x4d6ad40 is 0 bytes inside a block of size 8 alloc'd
+==2916895==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==2916895==    by 0x109294: main (t2-Andriel.cpp:12)
+==2916895== 
+==2916895== Mismatched free() / delete / delete []
+==2916895==    at 0x4839EAB: operator delete(void*) (vg_replace_malloc.c:584)
+==2916895==    by 0x109550: main (t2-Andriel.cpp:48)
+==2916895==  Address 0x4d6acc0 is 0 bytes inside a block of size 64 alloc'd
+==2916895==    at 0x483950F: operator new[](unsigned long) (vg_replace_malloc.c:431)
+==2916895==    by 0x109257: main (t2-Andriel.cpp:10)
+==2916895== 
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::at: __n (which is 0) >= this->size() (which is 0)
-==1255450== 144 bytes in 1 blocks are possibly lost in loss record 4 of 4
-==1255450==    at 0x483877F: malloc (vg_replace_malloc.c:307)
-==1255450==    by 0x49078DF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
-==1255450==    by 0x492FBC9: std::__throw_out_of_range_fmt(char const*, ...) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
-==1255450==    by 0x4996E8E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::at(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
-==1255450==    by 0x1092EB: main (t2-Andriel.cpp:18)
-==1255450== 
+==2916895== 144 bytes in 1 blocks are possibly lost in loss record 4 of 4
+==2916895==    at 0x483877F: malloc (vg_replace_malloc.c:307)
+==2916895==    by 0x49078DF: __cxa_allocate_exception (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==2916895==    by 0x492FBC9: std::__throw_out_of_range_fmt(char const*, ...) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==2916895==    by 0x4996E8E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::at(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+==2916895==    by 0x1092F7: main (t2-Andriel.cpp:19)
+==2916895== 
