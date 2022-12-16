@@ -1,16 +1,16 @@
-t.cpp:250:24: style: Condition 'st[0]=='-'' is always false [knownConditionTrueFalse]
+t.cpp:247:24: style: Condition 'st[0]=='-'' is always false [knownConditionTrueFalse]
         }else if(st[0] == '-' && numbers.empty()){
                        ^
-t.cpp:245:40: note: Assuming that condition 'st[0]=='-'' is not redundant
+t.cpp:242:40: note: Assuming that condition 'st[0]=='-'' is not redundant
         }else if(st[0] == '+' || st[0] == '-' || st[0] == '*' || st[0] == '/' || st[0] == '(' || st[0] == ')'){
                                        ^
-t.cpp:250:24: note: Condition 'st[0]=='-'' is always false
+t.cpp:247:24: note: Condition 'st[0]=='-'' is always false
         }else if(st[0] == '-' && numbers.empty()){
                        ^
-t.cpp:296:24: performance: Function parameter 'a' should be passed by const reference. [passedByValue]
+t.cpp:293:24: performance: Function parameter 'a' should be passed by const reference. [passedByValue]
 bool comparator(string a,string b){
                        ^
-t.cpp:296:33: performance: Function parameter 'b' should be passed by const reference. [passedByValue]
+t.cpp:293:33: performance: Function parameter 'b' should be passed by const reference. [passedByValue]
 bool comparator(string a,string b){
                                 ^
 t.cpp:48:0: style: The function 'operador' is never used. [unusedFunction]

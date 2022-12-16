@@ -1,15 +1,12 @@
-T_IV.cpp:246:46: performance: Function parameter 'form' should be passed by const reference. [passedByValue]
+T_IV.cpp:248:46: performance: Function parameter 'form' should be passed by const reference. [passedByValue]
     void leitura(std::string id, std::string form){
                                              ^
-T_IV.cpp:235:7: style: struct member 'Celula::valor' is never used. [unusedStructMember]
-  int valor;
-      ^
 T_IV.cpp:22:0: style: The function 'cria' is never used. [unusedFunction]
 
 ^
 T_IV.cpp:70:0: style: The function 'destroi' is never used. [unusedFunction]
 
 ^
-T_IV.cpp:215:0: style: The function 'fim' is never used. [unusedFunction]
+T_IV.cpp:216:0: style: The function 'fim' is never used. [unusedFunction]
 
 ^

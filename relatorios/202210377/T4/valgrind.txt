@@ -1,10 +1,10 @@
-==1441516== 40 bytes in 1 blocks are definitely lost in loss record 1 of 4
-==1441516==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
-==1441516==    by 0x10E8DE: Planilha<int>::adicionaCelula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (calculadora.cpp:17)
-==1441516==    by 0x10D8F0: main (calculadora.cpp:187)
-==1441516== 
-==1441516== 944 (48 direct, 896 indirect) bytes in 1 blocks are definitely lost in loss record 4 of 4
-==1441516==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
-==1441516==    by 0x10E760: Planilha<int>::Planilha() (calculadora.cpp:13)
-==1441516==    by 0x10D84D: main (calculadora.cpp:183)
-==1441516== 
+==3164701== 40 bytes in 1 blocks are definitely lost in loss record 1 of 4
+==3164701==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==3164701==    by 0x10E8DE: Planilha<int>::adicionaCelula(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (calculadora.cpp:17)
+==3164701==    by 0x10D8F0: main (calculadora.cpp:187)
+==3164701== 
+==3164701== 944 (48 direct, 896 indirect) bytes in 1 blocks are definitely lost in loss record 4 of 4
+==3164701==    at 0x4838DEF: operator new(unsigned long) (vg_replace_malloc.c:342)
+==3164701==    by 0x10E760: Planilha<int>::Planilha() (calculadora.cpp:13)
+==3164701==    by 0x10D84D: main (calculadora.cpp:183)
+==3164701== 
