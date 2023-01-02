@@ -1,22 +1,5 @@
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-a.out is a Catch v2.13.10 host application.
-Run with -? for options
-
--------------------------------------------------------------------------------
-Caso remove todos
--------------------------------------------------------------------------------
-arvore.cpp:392
-...............................................................................
-
-arvore.cpp:392: FAILED:
-due to a fatal error condition:
-  SIGABRT - Abort (abnormal termination) signal
-
 ===============================================================================
-test cases: 13 | 12 passed | 1 failed
-assertions: 13 | 12 passed | 1 failed
+All tests passed (13 assertions in 13 test cases)
 
 
 ERRORS:
-free(): double free detected in tcache 2
