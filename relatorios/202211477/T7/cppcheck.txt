@@ -1,0 +1,12 @@
+dijkstra.cpp:37:3: style: Struct 'Heap < Vertice * , decltype ( compara ) >' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+  Heap(C cmp): compara(cmp) {}
+  ^
+dijkstra.cpp:94:17: style: Unused variable: chave [unusedVariable]
+    std::string chave, nome;
+                ^
+dijkstra.cpp:94:24: style: Unused variable: nome [unusedVariable]
+    std::string chave, nome;
+                       ^
+dijkstra.cpp:172:0: style: The function 'imprime' is never used. [unusedFunction]
+
+^

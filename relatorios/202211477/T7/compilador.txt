@@ -1,0 +1,4 @@
+dijkstra.cpp:4:10: fatal error: catch2/catch.hpp: Arquivo ou diretório inexistente
+    4 | #include <catch2/catch.hpp> //TODO alterar antes de enviar
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
