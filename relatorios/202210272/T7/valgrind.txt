@@ -1,0 +1,1 @@
+==3963673== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
